@@ -623,11 +623,12 @@ p {
   position: absolute;
   bottom: 0;
   width: 100%;
-  margin: 0;
 }
 
-/* line 8, ../sass/extensions/_footer.scss */
+/* line 7, ../sass/extensions/_footer.scss */
 .footer p {
   text-align: right;
   padding: 0.7em 1em;
+  font-size: 0.8em;
+  color: #fff;
 }
