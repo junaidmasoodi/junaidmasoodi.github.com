@@ -1,0 +1,12 @@
+.grid{
+        @extend .group;
+        list-style:none;
+        margin:0 0 $half-base-spacing-unit 0;
+}
+
+.page { width: 100%; }
+.w620 { width: 620px; }
+.w220 { width: 220px; }
+.w696 { width: 696px; }
+.w140 { width: 140px; }
+.w300 { width: 300px; }

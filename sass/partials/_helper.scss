@@ -1,0 +1,40 @@
+/*--------------*\
+  $CLEARFIX
+\*--------------*/
+// Nicolas Gallagher @necolas
+// http://nicolasgallagher.com/micro-clearfix-hack/
+
+.group:before,
+.group:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.group:after {
+  clear: both;
+}
+
+/*--------------*\
+  $TEXT-INDENT
+\*--------------*/
+
+.hide-text {
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/*--------------*\
+  $FLOAT
+\*--------------*/
+
+.f-right{ float: right; }
+.f-left{ float: left; }
+
+/*--------------*\
+  $STATE
+\*--------------*/
+
+.is-visible{ display: block !important; }
+.is-hidden{ display: none; }
+

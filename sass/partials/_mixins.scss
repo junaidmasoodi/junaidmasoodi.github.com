@@ -1,0 +1,20 @@
+/*--------------*\
+    $PX to REM
+\*--------------*/
+
+@mixin font-size($sizeValue){
+  font-size: $sizeValue + px;
+  font-size: ($sizeValue / $base-font-size) + rem;
+}
+
+/*--------------*\
+    $VENDORS
+\*--------------*/
+
+@mixin vendor($property, $value){
+    -webkit-#{$property}:$value;
+       -moz-#{$property}:$value;
+        -ms-#{$property}:$value;
+         -o-#{$property}:$value;
+            #{$property}:$value;
+}
