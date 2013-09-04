@@ -608,19 +608,91 @@ li {
 }
 
 /* line 1, ../sass/extensions/_global.scss */
-body {
-  width: 100%;
+html {
+  height: 100%;
 }
 
 /* line 4, ../sass/extensions/_global.scss */
+body {
+  height: 100%;
+}
+
+/* line 8, ../sass/extensions/_global.scss */
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 12, ../sass/extensions/_global.scss */
 p {
   margin: 0;
+}
+
+/* line 15, ../sass/extensions/_global.scss */
+.blog-bar {
+  width: 60%;
+  float: left;
+  border-right: 8px solid #000;
+  height: 100%;
+  background: url("../images/background.png");
+}
+
+/* line 22, ../sass/extensions/_global.scss */
+.info-bar {
+  width: 40%;
+  float: right;
+  text-align: center;
+}
+
+/* line 27, ../sass/extensions/_global.scss */
+.posts {
+  margin-left: 1em;
+}
+/* line 29, ../sass/extensions/_global.scss */
+.posts a {
+  font-size: 1.2em;
+  color: #032B68;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* line 36, ../sass/extensions/_global.scss */
+.posts li {
+  width: 13em;
+  text-align: right;
+  float: left;
+  text-transform: initial;
+  margin-top: 1.1em;
+  margin-right: 1em;
+  margin-bottom: 2em;
+}
+/* line 44, ../sass/extensions/_global.scss */
+.posts li span {
+  color: #918C8C;
+  font-size: 0.8em;
+  text-transform: lowercase;
+}
+
+/* line 50, ../sass/extensions/_global.scss */
+.one-post {
+  background: url("../images/blogrule.png") no-repeat 0px 115px;
+  padding-bottom: 1.6em;
+}
+
+/* line 2, ../sass/extensions/_header.scss */
+.header .title {
+  text-align: center;
+  margin-top: 3em;
+}
+/* line 6, ../sass/extensions/_header.scss */
+.header .title-site {
+  display: none;
 }
 
 /* line 1, ../sass/extensions/_footer.scss */
 .footer {
   background: #1c3257;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }

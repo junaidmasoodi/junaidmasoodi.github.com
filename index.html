@@ -4,10 +4,10 @@ title: Junaid Masoodi
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
+      <div class='one-post'><li><a href="{{ post.url }}">{{ post.title }}</a>  <br /> <br /> <span>{{ post.date | date_to_string }}</span> </li> </br>
+      <p>{{ post.content | strip_html | truncatewords: 35 }}</p></div>
+    {% endfor %} 
   </ul>
 </div>

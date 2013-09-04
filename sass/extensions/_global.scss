@@ -1,6 +1,53 @@
+html {
+	height: 100%;
+}
 body {
+	height: 100%;
+}
+
+.container {
 	width: 100%;
+	height: 100%;
 }
 p {
 	margin: 0;
+}
+.blog-bar {
+	width: 60%;
+	float: left;
+	border-right: 8px solid #000;
+	height: 100%;
+	background: url("../images/background.png");
+}
+.info-bar {
+	width: 40%;
+	float: right;
+	text-align: center;
+}
+.posts {
+	margin-left: 1em;
+	a {
+		font-size: 1.2em;
+		color: #032B68;
+		font-weight: bold;
+		text-decoration: none;
+	}
+}
+.posts li {
+	width: 13em;
+	text-align: right;
+	float: left;
+	text-transform: initial;
+	margin-top: 1.1em;
+	margin-right: 1em;
+	margin-bottom: 2em;
+	span {
+		color: #918C8C;
+		font-size: 0.8em;
+		text-transform: lowercase;
+	}
+}
+.one-post {
+	background: url("../images/blogrule.png") no-repeat 0px 115px;
+	padding-bottom: 1.6em;
 }
