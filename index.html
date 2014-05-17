@@ -1,13 +1,29 @@
 ---
 layout: default
-title: Junaid Masoodi
 ---
 
-<div id="home">
+<div class="home">
+  <div id="background">
+    <a href="/"><img src="junaid.png" alt="" /></a>
+    <div class="teaser">
+      <p>
+        I am a sample size of one, not statistically significant, nor representative.
+        Front-End Developer @ <a href="http://www.axelerant.com">axelerant</a>
+        | Microsoft Technology Evangelist | #Blogger
+      </p>
+    </div>
+  </div>
+
   <ul class="posts">
     {% for post in site.posts %}
-      <div class='one-post'><li><a href="{{ post.url }}">{{ post.title }}</a>  <br /> <br /> <span>{{ post.date | date_to_string }}</span> </li> </br>
-      <p>{{ post.content | strip_html | truncatewords: 35 }}</p></div>
-    {% endfor %} 
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        {{ post.excerpt }}
+      </li>
+    {% endfor %}
   </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
 </div>

@@ -12,6 +12,9 @@
 @import "partials/layout";
 @import "partials/mixins";
 @import "partials/fonts";
-@import "extensions/global";
-@import "extensions/header";
-@import "extensions/footer";
+@import "partials/fontawesome";
+
+
+@import "components/global";
+
+@import "partials/mediaqueries";

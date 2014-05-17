@@ -1,4 +1,45 @@
-#page{
-  max-width: 940px;
-  margin: auto;
+.site-title,
+.site-title:hover,
+.site-title:visited {
+  display: block;
+  font-size: 30px;
+  letter-spacing: -1px;
+  margin-top: 0.5em;
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 2em;
+
+  p {
+    margin: 0;
+    @extend .f-10;
+    text-transform: lowercase;
+    font-weight: 100;
+    font-style: italic;
+    text-align: right;
+    padding-right: 5px;
+    color: #cecece;
+    letter-spacing: 0em;
+  }
+
+}
+
+
+
+
+.site-nav {
+
+
+  .menu-icon { display: none; }
+
+  .page-link {
+    margin: 0.5em 0;
+    color: #727272;
+    letter-spacing: -.5px;
+    display: inline-block;
+    width: 100%;
+    @extend .f-20;
+  }
 }
