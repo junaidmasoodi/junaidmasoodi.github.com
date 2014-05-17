@@ -5,8 +5,8 @@ date:   2014-05-14 11:43:54
 categories: Github
 ---
 
-If you are learning to code, or already onto it and want your project to be hosted, easily that too free. The answer is Github Pages. IT helps not you only in hosting HTML, CSS and JS files but yeah helps in learning important and tricky tool i.e., Git. In this post i will be helping you as how to publish your project from local repository to github pages
-.
+If you are learning to code, or already onto it and want your project to be hosted, easily that too free. The answer is Github Pages. IT helps not you only in hosting HTML, CSS and JS files but yeah helps in learning important and tricky tool i.e., Git. In this post i will be helping you as how to publish your project from local repository to github pages.
+
 
 First of all we need to know about two types of github pages called as
 
