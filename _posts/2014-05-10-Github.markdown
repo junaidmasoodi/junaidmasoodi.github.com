@@ -7,4 +7,4 @@ categories: Github
 As per [Github](https://github.com/about), <mark>It is the best place to share code with friends, co-workers, classmates, and complete strangers</mark>. More generally i call it __Coding Social Network__ You dont push status updates but Repositories and chunks of code :) . Oh! ya you can comment here as well, well thats different comment dont get confused with Facebook ones ;)
 
 
--Writing in progress-
+-Writing in progress- 

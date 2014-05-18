@@ -28,7 +28,11 @@
 }
 
 @media screen and (max-width: 600px) {
-
+  
+  .post {
+    padding: 0 1.5em;
+  }
+  
   .site-header {
     width: 0px;
   }
@@ -37,7 +41,7 @@
     margin-left: 0;
   }
   .site-title, #my-social {
-    display: none;
+    display: none!important;
   }
 
   .home {
