@@ -29,6 +29,9 @@
 
 @media screen and (max-width: 600px) {
   
+  #mobile-social {
+    display: block;
+  }
   .post {
     padding: 0 1.5em;
   }
@@ -53,8 +56,6 @@
     z-index: 10;
     top: 14px; right: 8px;
     background-color: white;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
     border-radius: 5px;
     border: 1px solid #e8e8e8;
   }
