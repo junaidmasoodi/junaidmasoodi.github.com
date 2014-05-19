@@ -13,11 +13,23 @@ First of all we need to know about two types of github pages called as
 * Userpages
 * Project pages
 
-**userpages** come in handy if you want to host your personal website or the index of any project. You may note that there is only one userpage per account. The URL for userpage is http://someproject.github.io/ but **project pages** are used when you want to host a project, of which you have many. We can have multiple project pages per Github account. The URL for project pages are http://someproject.github.io/nameofproject/
+**userpages** come in handy if you want to host your personal website or the index of any project. You may note that there is only one userpage per account. The URL for userpage is <mark>http://title.github.io/ </mark>
 
-__Create our First Repository__
+**roject pages** are used when you want to host a project, of which you have many. We can have multiple project pages per Github account. The URL for project pages are <mark>http://title.github.io/projectpage/</mark>
+
+__Create First Repository__
 First lets go on this page [https://github.com/new](https://github.com/new) after we sign up on github
 
+![Create First repo](/images/githubpages/create-repo.png "Create First repo")
+
+1. Enter repo name
+2. Make repo public, you can make it private as well, But that is paid service. Remember keeping repo public isn't any harm. There people can see your code and can request pulls, But they wont be able to merge only you can.
+3. Check “Initialize this repository with a README” this is optional but it will make next step easier.
+4. Then click create repository.
+
+And you are done with repository creation.
+
+__Same goes with project page creation__
 
 
 _Writing in progress_
