@@ -17,7 +17,7 @@ First of all we need to know about two types of github pages called as
 
 **roject pages** are used when you want to host a project, of which you have many. We can have multiple project pages per Github account. The URL for project pages are <mark>http://title.github.io/projectpage/</mark>
 
-__Create First Repository__
+###Create First Repository###
 First lets go on this page [https://github.com/new](https://github.com/new) after we sign up on github
 
 ![Create First repo](/images/githubpages/create-repo.png "Create First repo")
@@ -31,5 +31,8 @@ And you are done with repository creation.
 
 __Same goes with project page creation__
 
+Now lets create create "Hello World" page and push it to Github, To see how github pages looks like and work
 
-_Writing in progress_
+Before you take clone of repository we created, You may need to add .ssh keys and do some installation, If you have already done You can skip and move forward. If not Please [follow this link](https://help.github.com/articles/generating-ssh-keys). 
+
+Now lets take clone of repository
