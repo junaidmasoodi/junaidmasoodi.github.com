@@ -35,4 +35,25 @@ Now lets create create "Hello World" page and push it to Github, To see how gith
 
 Before you take clone of repository we created, You may need to add .ssh keys and do some installation, If you have already done You can skip and move forward. If not Please [follow this link](https://help.github.com/articles/generating-ssh-keys). 
 
-Now lets take clone of repository
+###Now lets take clone of repository###
+On the project repository just copy the ssh URL and paste in terminal in your specified path and hit enter.
+![Clone the repo](/images/githubpages/clone.png "Clone your repository")
+![Clone the repo](/images/githubpages/cloning.png "Cloning your repository")
+
+Command that you will get from github will be like this
+{% highlight ruby %}
+git@github.com:junaidmasoodi/junaidmasoodi.git
+{% endhighlight %}
+
+please add <highlight>git clone</highlight> as prefix to the abve to start cloning.
+{% highlight ruby %}
+git clone git@github.com:junaidmasoodi/junaidmasoodi.git
+{% endhighlight %}
+
+and for now our cloned repo will have readme.md only
+
+<div class="notes"><span>Note:</span> If you are familier with git and installed same on you machine, then and only then you will be able to take clone.</div>
+
+Otherwise there are other two options at same place <highlight>clone in desktop</highlight> & <highlight>download as zip</highlight> you can use these options as well to clone or simply download repository.
+
+In another post I will try to create one page of Thank You and push to same repo and make show how custom domain redirect to same page
