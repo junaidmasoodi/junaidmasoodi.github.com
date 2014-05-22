@@ -56,4 +56,4 @@ and for now our cloned repo will have readme.md only
 
 Otherwise there are other two options at same place <highlight>clone in desktop</highlight> & <highlight>download as zip</highlight> you can use these options as well to clone or simply download repository.
 
-In another post I will try to create one page of Thank You and push to same repo and make show how custom domain redirect to same page
+In another post I will create one page of say "Thank You" and push to same repo and will also show as to how the custom domain redirect to same page
