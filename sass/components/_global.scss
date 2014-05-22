@@ -22,6 +22,11 @@ p {
     display: block;
     margin: auto;
   }
+
+  a {
+    @extend .f-18;
+    font-weight: 300;
+  }
 }
 img {
   max-width: 100%;
