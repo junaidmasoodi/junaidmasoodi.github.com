@@ -4,7 +4,32 @@ title:  "What is Github"
 date:   2014-05-10 11:09:54
 categories: Github
 ---
-As per [Github](https://github.com/about), <mark>It is the best place to share code with friends, co-workers, classmates, and complete strangers</mark>. More generally i call it __Coding Social Network__ You dont push status updates but Repositories and chunks of code :) . Oh! ya you can comment here as well, well thats different comment dont get confused with Facebook ones ;)
+As per [Github](https://github.com/about), <mark>It is the best place to share code with friends, co-workers, classmates, and complete strangers</mark>. More generally i call it __Coding Social Network__ You don't push status updates but Repositories and chunks of code :) . Oh! ya you can comment here as well, well thats different comment don't get confused with Facebook ones ;)
+
+GIT, the heart of Github makes it very special, GIT is an open source project started by Linus Torvalds - Linux creator. Git is a version control, used to manage changes in programs, sites, docs and also keep the record (version) history.
+
+Github is actually more than that, The flagship functionality of github is <b>"forking"</b>. The other main features are <b>Pull request</b> and <b>merge</b>
+
+Unlike GIT, Github can be accessed via Graphical user interface as well.
+
+> While talking about Github some terms must be remembered 
+
+<b>Repository:</b> It is a place where your project is stored.
+
+<b>Version Control:</b> It keeps the snapshot of every chunk of code, if over written or added to any file. It keeps of track of all files which are present or changed and the code in those files as well.
+
+<div>Commit:</div> This is where you take snapshot of repository after adding changes to repo and before pushing.
+
+<b>Push:</b> It means updating the code on particular repository.
+
+<b>Command Line:</b> A computer program via which we can commit changes to repository.
+
+<b>Brach:</b> If multiple people are working on same project, Branching comes in handy where people can maintain their own version controls in their own repo and we can merge all branches before pushing to repository.
+
+<b>Clone:</b> Copying the repository on your Machine.
+
+<b>Local Repository</b> Taking clone of repository on your machine and working on it, Despite Internet connection is working or not.
+
 
 
 -Writing in progress- 
