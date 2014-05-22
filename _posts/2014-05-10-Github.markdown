@@ -29,7 +29,3 @@ Unlike GIT, Github can be accessed via Graphical user interface as well.
 <b>Clone:</b> Copying the repository on your Machine.
 
 <b>Local Repository</b> Taking clone of repository on your machine and working on it, Despite Internet connection is working or not.
-
-
-
--Writing in progress- 
