@@ -29,3 +29,5 @@ Unlike GIT, Github can be accessed via Graphical user interface as well.
 <b>Clone:</b> Copying the repository on your Machine.
 
 <b>Local Repository</b> Taking clone of repository on your machine and working on it, Despite Internet connection is working or not.
+
+Setting Up git hub for the first time, You simply need to sign up at [Github.com](https://www.github.com) aand Creating you first repository is shown Another [Post](http://junaidmasoodi.com/github/2014/05/14/github-pages/) 
