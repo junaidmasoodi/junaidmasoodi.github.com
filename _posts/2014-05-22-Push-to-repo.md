@@ -76,4 +76,4 @@ Right in A-record add new record and leaving name empty as in Screenshot and upd
 
 For 'www' add www in name part of it as in SS after adding both IP's for domain.com and www.domain.com as well
 
-#### and you are done :) and test here [junaidmasoodi.com]('junaidmasoodi.com')
+#### and you are done :) and test here [junaidmasoodi.com](junaidmasoodi.com)
