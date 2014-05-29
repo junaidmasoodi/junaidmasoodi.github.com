@@ -7,9 +7,9 @@ categories: GitHUb
 
 We talked about Github, cloning, and Github pages. WE will now make one page as we said "Thank you" and will also redirect same page to some custom domain as well :)
 
-For custom redirect i will be using [bigrock.in]('http://bigrock.in').
+For custom redirect i will be using [bigrock.in](http://bigrock.in).
 
-First we need to go to the repo which is shown in [last post]('http://junaidmasoodi.com/github/2014/05/14/github-pages/'), As how to create one. 
+First we need to go to the repo which is shown in [last post](http://junaidmasoodi.com/github/2014/05/14/github-pages/), As how to create one. 
 
 > It should be noted here if we are creating **Userpage** or **Projectpage** we have different branches to push to. If we are pushing to userpages then code should be pushed to **master** otherwise **gh-pages**.
 
@@ -48,11 +48,11 @@ So we have successfully pushed the code to repo like in this screenshot we can c
 
 You can see both the files are there with gh-pages branch depolyed, If sometimes we forget to deploy the branch and continue to work on master. In that case, change branch to gh-pages at that instant and push using gh-pages and in settings of that repository keep gh-pages as default branch.
 
-Now you can check the project at [http://junaidmasoodi.github.io/junaidmasoodi/thankyou.html]('http://junaidmasoodi.github.io/junaidmasoodi/thankyou.html')
+Now you can check the project at [http://junaidmasoodi.github.io/junaidmasoodi/thankyou.html](http://junaidmasoodi.github.io/junaidmasoodi/thankyou.html)
 
-If you use index in place of thankyou.html then URL will be [http://junaidmasoodi.github.io/junaidmasoodi]('http://junaidmasoodi.github.io/junaidmasoodi') only [http://junaidmasoodi.github.io/junaidmasoodi/index.html]('http://junaidmasoodi.github.io/junaidmasoodi/index.html') as well.
+If you use index in place of thankyou.html then URL will be [http://junaidmasoodi.github.io/junaidmasoodi](http://junaidmasoodi.github.io/junaidmasoodi) only [http://junaidmasoodi.github.io/junaidmasoodi/index.html](http://junaidmasoodi.github.io/junaidmasoodi/index.html) as well.
 
-> But if you are pushing changes to userpages then you the url simply will be [http://junaidmasoodi.github.io]('http://junaidmasoodi.github.io')
+> But if you are pushing changes to userpages then you the url simply will be [http://junaidmasoodi.github.io](http://junaidmasoodi.github.io)
 
 
 ### Redirecting to custom URL
@@ -76,4 +76,4 @@ Right in A-record add new record and leaving name empty as in Screenshot and upd
 
 For 'www' add www in name part of it as in SS after adding both IP's for domain.com and www.domain.com as well
 
-#### and you are done :) and test here ![junaidmasoodi.com](junaidmasoodi.com)
+#### and you are done :) and test here [junaidmasoodi.com](http://junaidmasoodi.com)
