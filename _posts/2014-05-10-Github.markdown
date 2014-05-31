@@ -24,7 +24,7 @@ Unlike GIT, Github can be accessed via Graphical user interface as well.
 
 <b>Command Line:</b> A computer program via which we can commit changes to repository.
 
-<b>Brach:</b> If multiple people are working on same project, Branching comes in handy where people can maintain their own version controls in their own repo and we can merge all branches before pushing to repository.
+<b>Branch:</b> If multiple people are working on same project, Branching comes in handy where people can maintain their own version controls in their own repo and we can merge all branches before pushing to repository.
 
 <b>Clone:</b> Copying the repository on your Machine.
 
