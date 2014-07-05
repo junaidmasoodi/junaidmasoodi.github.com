@@ -2,9 +2,11 @@
 title: Junaid Masoodi
 email: iam@junaidmasoodi.com
 description: "Amateur Front-End developer"
-baseurl: ""
+baseurl: "http://junaidmasoodi.com"
 url: "http://junaidmasoodi.com"
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+sitemap: file
