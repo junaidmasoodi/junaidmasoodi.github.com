@@ -9,4 +9,6 @@ url: "http://junaidmasoodi.com"
 markdown: kramdown
 permalink: pretty
 
-sitemap: file
+#Gems
+gems:
+   - jekyll-sitemap
