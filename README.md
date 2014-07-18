@@ -1,4 +1,5 @@
 junaidmasoodi.github.com
 ========================
 
-Personal Blog
+Blog of Junaid Masoodi
+http://junaidmasoodi.com
