@@ -239,11 +239,13 @@ img {
 
   .fa {
     @extend .f-16;
-    padding: 5px;
-    background: rgb(16, 34, 58);
+    padding: 9px;
+    background: #fff;
+    color: #000;
     border-radius: 50%;
-    width: 28px;
+    width: 35px;
     height: auto;
+    margin: 0.5em;
   }
 }
 
