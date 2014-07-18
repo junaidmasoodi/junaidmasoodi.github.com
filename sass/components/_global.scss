@@ -479,3 +479,27 @@ img {
   padding-left: 0.3em;
   padding-right: 0.3em;
 }
+
+// TALKS
+.talks {
+  border-left: 3px solid #00BFFC;
+  padding-left: 1em;
+  margin-bottom: 2.5em;
+
+  h6 {
+    @extend .f-16;
+    font-weight: 600;
+    color: #AAA;
+    margin-top: 0;
+  }
+
+  h4 {
+    margin-top: 1em;
+    letter-spacing: 0;
+  }
+}
+.timed {
+  @extend .f-14;
+  color: #AAA;
+  margin-bottom: 0;
+}
