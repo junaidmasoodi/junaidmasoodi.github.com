@@ -14,6 +14,17 @@
 
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+
+     <script type="text/javascript">
+      //<![CDATA[
+        $(window).load(function() { // makes sure the whole site is loaded
+          $('#status').fadeOut(); // will first fade out the loading animation
+          $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+          $('body').delay(350).css({'overflow':'visible'});
+        })
+      //]]>
+    </script>
+    
     <!-- Custom CSS -->
 
     <link rel="stylesheet" media="screen, projection"  type="text/css" href="{{ "/stylesheets/screen.css" | prepend: site.baseurl }}"/>
@@ -26,14 +37,5 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
 
     <!-- Preloader -->
-    <script type="text/javascript">
-      //<![CDATA[
-        $(window).load(function() { // makes sure the whole site is loaded
-          $('#status').fadeOut(); // will first fade out the loading animation
-          $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-          $('body').delay(350).css({'overflow':'visible'});
-        })
-      //]]>
-    </script>
 
 </head>
