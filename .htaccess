@@ -1,24 +1,15 @@
 ## EXPIRES CACHING ##
 
-# Webfonts
-AddType fonts/vnd.ms-fontobject		eot
-AddType fonts/x-font-ttf			ttf ttc
-AddType fonts/opentype				otf
-AddType fonts/x-font-woff			woff
-
-<IfModule mod_expires.c>
-ExpiresActive On
-ExpiresByType image/jpg "access 1 year"
-ExpiresByType fonts "access 1 year"
-ExpiresByType image/jpeg "access 1 year"
-ExpiresByType image/gif "access 1 year"
-ExpiresByType image/png "access 1 year"
-ExpiresByType text/css "access 5 days"
-ExpiresByType text/html "access 3 days"
-ExpiresByType application/pdf "access 1 month"
-ExpiresByType text/x-javascript "access 1 month"
-ExpiresByType application/x-shockwave-flash "access 1 month"
-ExpiresByType image/x-icon "access 1 year"
-ExpiresDefault "access 1 month"
-</IfModule>
-## EXPIRES CACHING ##
+# Expires Headers - 2678400s = 31 days
+<ifmodule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 seconds"
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType image/gif "access plus 2678400 seconds"
+  ExpiresByType image/jpeg "access plus 2678400 seconds"
+  ExpiresByType image/png "access plus 2678400 seconds"
+  ExpiresByType /png "access plus 2678400 seconds"
+  ExpiresByType stylesheets/css "access plus 2678400 seconds"
+  ExpiresByType text/css "access plus 518400 seconds"
+  ExpiresByType text/javascript "access plus 2678400 seconds"
+</ifmodule>
