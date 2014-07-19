@@ -9,8 +9,6 @@ url: "http://junaidmasoodi.com"
 markdown: kramdown
 permalink: pretty
 
-include:     ['.htaccess']
-
 #Gems
 gems:
    - jekyll-sitemap
