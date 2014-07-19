@@ -8,9 +8,8 @@
   ExpiresByType image/gif "access plus 2678400 seconds"
   ExpiresByType image/jpeg "access plus 2678400 seconds"
   ExpiresByType image/png "access plus 2678400 seconds"
-  ExpiresByType /png "access plus 2678400 seconds"
+  ExpiresByType png "access plus 2678400 seconds"
   ExpiresByType stylesheets/css "access plus 2678400 seconds"
   ExpiresByType text/css "access plus 518400 seconds"
   ExpiresByType text/javascript "access plus 2678400 seconds"
-  ExpiresByType http://junaidmasoodi.com/jekyll.png "access plus 200000 seconds"
 </ifmodule>
