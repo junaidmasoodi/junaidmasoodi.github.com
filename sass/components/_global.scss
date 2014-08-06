@@ -1,16 +1,15 @@
 /*Preloader*/
 
-body { overflow: hidden; }
+
 #preloader {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #429ace;
+    background-color: #d42929;
     z-index: 99;
 }
-
 #status {
     width: 200px;
     height: 200px;
@@ -23,6 +22,23 @@ body { overflow: hidden; }
     margin: -100px 0 0 -100px;
 }
 
+.pace .pace-progress {
+  background: #f63f05;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  left: 0;
+  height: 3px;
+
+  -webkit-transition: width 1s;
+  -moz-transition: width 1s;
+  -o-transition: width 1s;
+  transition: width 1s;
+}
+
+.pace-inactive {
+  display: none;
+}
 
 /*STYLES*/
 
@@ -306,6 +322,7 @@ img {
   letter-spacing: -1.25px;
 }
 
+
 .post-content h3 {
   font-size: 26px;
   letter-spacing: -1px;
@@ -504,4 +521,25 @@ img {
   @extend .f-14;
   color: #AAA;
   margin-bottom: 0;
+}
+.hire {
+  text-align: center;
+  margin-top: 3em;
+  p {
+    text-decoration: line-through;
+  }
+  p, a {
+    background: rgb(40, 143, 192);
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    border-bottom: 4px solid rgb(12, 27, 102);
+    padding: 1em 2em;
+    color: #fff;
+    font-weight: 300;
+    &:hover {
+      cursor: pointer;
+      background: rgb(49, 175, 235);
+    }
+  }
 }

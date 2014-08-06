@@ -2,11 +2,14 @@
 <html>
 
   {% include head.html %}
-  <script src="/pace.min.js"></script>
 
     <body>
 
+    {% include preload.html %}
+
     {% include header.html %}
+
+
 
     <div class="page-content">
       <div class="wrap">
@@ -18,6 +21,17 @@
   </div>
 <a href="https://plus.google.com/+JunaidMasoodi?rel=author"></a>
     </body>
+     <!-- Preloader -->
+    <script type="text/javascript">
+      //<![CDATA[
+        $(window).load(function() { // makes sure the whole site is loaded
+          $('#status').fadeOut(); // will first fade out the loading animation
+          $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+          $('body').delay(350).css({'overflow':'visible'});
+        })
+      //]]>
+    </script>
+    
 
     <script>
       $("#toggle").click(function() {
@@ -35,6 +49,6 @@
 
   ga('create', 'UA-52548573-1', 'auto');
   ga('send', 'pageview');
-  </script>
-  
+
+</script>
 </html>

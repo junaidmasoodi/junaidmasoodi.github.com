@@ -111,3 +111,6 @@ permalink: /talks/
 <h6>Caset College of Competitions.</h6>
 <h4>Imagine Cup &amp; Microsoft Student Program.</h4>
 </div>
+
+
+<div class="hire"><a href="/contact">Available for speaking till October '14</a></div>
