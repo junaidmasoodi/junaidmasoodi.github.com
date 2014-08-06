@@ -539,7 +539,7 @@ img {
     &:hover {
       cursor: pointer;
       background: rgb(49, 175, 235);
-      text-decoration: none;
     }
+    a:hover { text-decoration: none; }
   }
 }
