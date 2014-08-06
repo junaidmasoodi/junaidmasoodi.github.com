@@ -10,7 +10,11 @@ After years of development, testing and refining On March 20, 2014, W3C finally 
 
 Duplicating functions or emulating the rich components and maximizing the HTTP requests in the background tends to rich user experience. But for assistive technologies like screen readers it is a nightmare, they will fall for accessibility problems. If we built widgets or rich components this way they may be barely accessible via keyboards on screen readers, the function of the widget may not be available for assistive technology, the properties of rich component may not be inherited, updates and discovery of updates will not be recorded and reported by assistive technology.
 
-Fortunately we have something to rescue from the above shortcomings i.e., WAI-ARIA. It allow developers to create rich Internet applications and yes it is easy to implement as well.
+> Assistive technology is an umbrella term that includes assistive, adaptive, and rehabilitative devices for people with disabilities and also includes the process used in selecting, locating, and using them. Assistive technology promotes greater independence by enabling people to perform tasks that they were formerly unable to accomplish, or had great difficulty accomplishing, by providing enhancements to, or changing methods of interacting with, the technology needed to accomplish such tasks.
+
+__Above excerpt from wikipedia, [more on Assistive technology](http://en.wikipedia.org/wiki/Assistive_technology)__
+
+Fortunately we have something to rescue from the above shortcomings i.e., ARIA. It allow developers to create rich Internet applications and yes it is easy to implement as well.
 
 ARIA achieves from simple rending of certain attributes on screen readers to render widgets as whole number system or sometimes hierarchical tree views, if needed. We can achieve by simply applying `roles` and `state attributes`, supported from HTML 4.1 or above.
 
