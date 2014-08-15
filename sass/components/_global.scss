@@ -45,6 +45,7 @@ html, body {
   height: 100%;
   font-family: $primary;
   font-weight: 300;
+
 }
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
@@ -60,6 +61,7 @@ a:hover   {
 }
 
 p {
+  text-rendering: optimizeLegibility;
   img {
     display: block;
     margin: auto;

@@ -2,7 +2,7 @@
 layout: post
 title:  "Silverlight"
 date:   2012-04-11 11:09:54
-categories: Microsoft
+categories: Microsoft, XAML
 ---
 
 Silverlight is Microsoft’s implementation of a cross-browser, cross-platform client framework that allows designers and developers to deliver Rich Internet Applications (RIA) embedded in Web pages. Silverlight is fitted with a flexible media pipeline that makes it extremely easy to implement media-rich controls in your Web applications.

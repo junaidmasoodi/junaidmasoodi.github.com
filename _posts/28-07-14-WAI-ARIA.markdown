@@ -2,7 +2,7 @@
 layout: post
 title:  "Towards WAI-ARIA"
 date:   2014-07-28 11:09:54
-categories: Front-End
+categories: Front-End, HTML
 ---
 WAI-ARIA - 'Web Accessibility Initiative – Accessible Rich Internet Applications' is a way of making Web Applications and Content accessible to those with disabilities, plays nice with application created with Ajax and JavaScript. For the rest of the article we will use ARIA instead of WAI-ARIA. ARIA is set of attributes, helping assistive technologies such as Screen readers for blind, make sense of certain elements which aren't native to HTML by helping enhance the semantics of Web APP or website.
 
