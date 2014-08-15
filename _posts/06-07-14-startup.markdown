@@ -2,7 +2,7 @@
 layout: post
 title:  "They call it startup"
 date:   2014-07-06 11:09:54
-categories: Entrepreneurship, Startup
+categories: Entrepreneurship
 ---
 > “I don’t know the key to success, but the key to failure is trying to please everybody.” - Bill Cosby
 

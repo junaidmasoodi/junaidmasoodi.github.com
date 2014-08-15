@@ -2,7 +2,7 @@
 layout: post
 title:  "Progressive JPEGS - a new best practise"
 date:   2014-06-14 11:09:54
-categories: Front-End, Photoshop
+categories: Front-End
 ---
 
 Was learning about optimizing and profiling the WebApp and Websites,  scratched more about Progressive JPGS and came up with this small chunk of information about progressive JPEGs.

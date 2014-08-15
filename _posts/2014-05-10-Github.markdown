@@ -2,7 +2,7 @@
 layout: post
 title:  "What is Github"
 date:   2014-05-10 11:09:54
-categories: Github, Git
+categories: Github
 ---
 As per [Github](https://github.com/about), <mark>It is the best place to share code with friends, co-workers, classmates, and complete strangers</mark>. More generally i call it __Coding Social Network__ You don't push status updates but Repositories and chunks of code :) . Oh! ya you can comment here as well, well thats different comment don't get confused with Facebook ones ;)
 
