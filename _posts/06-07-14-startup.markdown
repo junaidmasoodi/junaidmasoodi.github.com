@@ -4,7 +4,7 @@ title:  "They call it startup"
 date:   2014-07-06 11:09:54
 categories: Entrepreneurship
 ---
-> “I don’t know the key to success, but the key to failure is trying to please everybody.” - Bill Cosby
+> “I don’t know the key to success, but the key to failure is trying to please everybody.” - [Bill Cosby](http://en.wikiquote.org/wiki/Bill_Cosby)
 
 Most of us are away from what we call entrepreneurship, Taking office space, hiring people, working on already half done projects precisely cleaning someone else shit or being like YES MAN and going door to door and seeking for projects.
 These kind of startups either fail or end in coning people by making fake promises. They say we do things which are far from them and yet they should be called as entrepreneurs.

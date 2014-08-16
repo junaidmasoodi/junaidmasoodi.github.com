@@ -45,7 +45,7 @@ Command that you will get from github will be like this
 git@github.com:junaidmasoodi/junaidmasoodi.git
 {% endhighlight %}
 
-Add <highlight>git clone</highlight> as prefix to the above to start cloning.
+Add `git clone` as prefix to the above to start cloning.
 {% highlight ruby %}
 git clone git@github.com:junaidmasoodi/junaidmasoodi.git
 {% endhighlight %}
@@ -54,6 +54,6 @@ and for now our cloned repo will have readme.md only
 
 <div class="notes"><span>Note:</span> If you are familiar with git and installed same on your machine, then and only then you will be able to take clone.</div>
 
-Otherwise there are two other options at same place <highlight>clone in desktop</highlight> & <highlight>download as zip</highlight> you can use these options as well to clone or simply download repository.
+Otherwise there are two other options at same place <mark>clone in desktop</mark> & <mark>download as zip</mark> you can use these options as well to clone or simply download repository.
 
 In another post I will create one page of say "Thank You" and push to same repo and will also show as to how the custom domain redirect to same page.

@@ -7,7 +7,7 @@ categories: Front-End
 
 Was learning about optimizing and profiling the WebApp and Websites,  scratched more about Progressive JPGS and came up with this small chunk of information about progressive JPEGs.
 
-> "interesting aspect of performance is perceived performance; not necessarily what your numbers tell you, but how fast a site feels" Harry Roberts ~ [CSS WIZARDRY](http://csswizardry.com/)
+> "interesting aspect of performance is perceived performance; not necessarily what your numbers tell you, but how fast a site feels" [Harry Roberts - CSS WIZARDRY](http://csswizardry.com/)
 
 If we talk Bandwidth wise, Images are elephants for websites. They are the largest average web site payload about 62%, and they are most often the content gridlock. They are main culprit for slow rendering.
 

@@ -45,6 +45,7 @@ html, body {
   height: 100%;
   font-family: $primary;
   font-weight: 300;
+  text-rendering: optimizeLegibility;
 
 }
 
@@ -61,7 +62,6 @@ a:hover   {
 }
 
 p {
-  text-rendering: optimizeLegibility;
   img {
     display: block;
     margin: auto;
@@ -240,6 +240,7 @@ img {
   letter-spacing: -1px;
   line-height: 1.5;
   font-weight: 600;
+  -webkit-font-smoothing: antialiased;
 }
 
 .posts .post-date {
@@ -335,13 +336,17 @@ img {
 }
 
 .post-content blockquote {
-  border-left: 4px solid #e8e8e8;
+  border-left: 4px solid #FF6225;
   padding-left: 20px;
   font-size: 18px;
-  opacity: .6;
+  color: #FF6225;
   letter-spacing: -1px;
-  font-style: italic;
   margin: 30px 0;
+
+  a {
+    padding: 0 0.5em;
+    font-family: monospace;
+  }
 }
 
 .post-content ul,
@@ -349,17 +354,17 @@ img {
 
 .post pre,
 .post code {
-  //border: 1px solid #d5d5e9;
-  background-color: #eef;
+  color: #89bdff;
+  background-color: #444;
   padding: 8px 12px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
   font-size: 15px;
-  MARGIN: 0;
+  margin: 0;
 }
 
-.post code { padding: 1px 5px; }
+.post code { padding: 1px 8px; }
 
 
 .post pre code { border: none; }
@@ -487,19 +492,6 @@ img {
     font-weight: 600;
   }
 }
-
-.highlight {
-  font-family: monospace, serif;
-  border: 1px solid #d5d5e9;
-  background-color: #eef;
-  border-radius: 3px;
-  font-size: 15px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  padding-left: 0.3em;
-  padding-right: 0.3em;
-}
-
 // TALKS
 .talks {
   border-left: 3px solid #00BFFC;
