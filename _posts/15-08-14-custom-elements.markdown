@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Custom Elements - The sexy Markup and the next Big Thing"
-date:   2014-08-15 11:09:54
+date:   2014-08-16 11:09:54
 categories: HTML5
 ---
 W3C defines Custom Elements web components that let authors define their own elements, including new presentation and API, that can be used in HTML documents. There are two main motivations which give air to this development i.e.,
