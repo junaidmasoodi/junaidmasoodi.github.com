@@ -1,33 +1,12 @@
 /* media queries */
 /* ----------------------------------------------------------*/
-@media screen and (max-width: 900px) {
+
+@media screen and (max-width: 1000px) {
   .home, .post {
-    padding: 0 3em;
+    padding: 0 2em;
   }
 }
-
 @media screen and (max-width: 750px) {
-
-  .footer-col-1 { width: 50%; }
-
-  .footer-col-2 {
-    width: 45%; /*fallback*/
-    width: -webkit-calc(50% - 10px);
-    width: -moz-calc(50% - 10px);
-    width: -o-calc(50% - 10px);
-    width: calc(50% - 10px);
-    margin-right: 0;
-  }
-
-  .site-footer .column.footer-col-3 {
-    width: auto;
-    float: none;
-    clear: both;
-  }
-
-}
-
-@media screen and (max-width: 600px) {
 
   .site-header .wrap {
     margin-left: 0;
