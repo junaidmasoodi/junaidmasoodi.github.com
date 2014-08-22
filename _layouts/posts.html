@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+  <script src="/pace.min.js"></script>
+  <!-- Go to www.addthis.com/dashboard to customize your tools -->
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53f78cca36582103"></script>
+
+    <body>
+
+    <div class="post-page-content">
+      <div class="wrap">
+      {{ content }}
+
+      <div class="footer-nav">
+
+        <a class="page-link" href="/">Home</a>
+      
+        <a class="page-link" href="/about/">About</a>
+        
+        <a class="page-link" href="/blog/">Blog</a>
+
+        <a class="page-link" href="/talks/">Presentations</a>
+
+        <a class="page-link" href="/contact/">Contact</a>
+
+      </div>
+      {% include footer.html %}
+      </div>
+
+  </div>
+<a href="https://plus.google.com/+JunaidMasoodi?rel=author"></a>
+    </body>
+
+    <script>
+      $("#toggle").click(function() {
+      $(this).toggleClass("on");
+      $("#menu").slideToggle();
+      });
+    </script>
+
+    <!-- gogle analytics -->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52548573-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  
+</html>
