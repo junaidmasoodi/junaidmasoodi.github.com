@@ -4,8 +4,9 @@ title: Talks
 permalink: /talks/
 ---
 
-<div class="talks"><coming>Tomorrow</coming>
+<div class="talks">
 <div class="timed">29 August, 2014</div>
+<coming>Tomorrow</coming>
 <h6>Axelerant Technologies</h6>
 <h4>Global Drupal Training day - II</h4>
 </div>
