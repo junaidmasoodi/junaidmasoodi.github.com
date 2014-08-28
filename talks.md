@@ -4,6 +4,12 @@ title: Talks
 permalink: /talks/
 ---
 
+<div class="talks"><coming>Tomorrow</coming>
+<div class="timed">29 August, 2014</div>
+<h6>Axelerant Technologies</h6>
+<h4>Global Drupal Training day - II</h4>
+</div>
+
 <div class="talks">
 <div class="timed">12 July, 2014</div>
 <h6>SSM college of Engineering &amp; Technology.</h6>
@@ -19,7 +25,7 @@ permalink: /talks/
 <div class="talks">
 <div class="timed">31 May, 2014</div>
 <h6>Axelerant Office</h6>
-<h4>World Drupal Day</h4>
+<h4>Global Drupal Training day - I</h4>
 </div>
 
 <div class="talks">
