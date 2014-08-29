@@ -5,6 +5,13 @@ permalink: /talks/
 ---
 
 <div class="talks">
+<div class="timed">04 September, 2014</div>
+<coming>This Thursday</coming>
+<h6>Islamic University of Science and Technology</h6>
+<h4>Building Responsive sites.</h4>
+</div>
+
+<div class="talks">
 <div class="timed">29 August, 2014</div>
 <h6>Axelerant Technologies</h6>
 <h4>Global Drupal Training day - II</h4>
