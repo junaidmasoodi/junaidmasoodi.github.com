@@ -174,7 +174,6 @@ img {
 .footer-nav {
   text-align: center;
   background: #3F3F3F;
-  border-top: 1px solid #e8e8e8;
   padding: 0.3em;
   a {
     text-transform: uppercase;
@@ -326,6 +325,7 @@ img {
 
 .post-content > * {
   margin: 20px 0;
+  text-align: justify;
   font-size: 18px;
   font-weight: 400;
   color: #555;

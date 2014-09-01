@@ -5,6 +5,13 @@ permalink: /talks/
 ---
 
 <div class="talks">
+<div class="timed">12 September, 2014</div>
+<coming>Next Saturday</coming>
+<h6>Pulwama Degree College</h6>
+<h4>Front-End Workflow</h4>
+</div>
+
+<div class="talks">
 <div class="timed">04 September, 2014</div>
 <coming>This Thursday</coming>
 <h6>Islamic University of Science and Technology</h6>
