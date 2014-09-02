@@ -12,8 +12,8 @@ permalink: /talks/
 </div>
 
 <div class="talks">
-<div class="timed">04 September, 2014</div>
-<coming>This Thursday</coming>
+<div class="timed">08 September, 2014</div>
+<coming>This Monday</coming>
 <h6>Islamic University of Science and Technology</h6>
 <h4>Building Responsive sites.</h4>
 </div>
