@@ -519,7 +519,21 @@ img {
     font-weight: 600;
   }
 }
+
+// RSS
+
+.rss-subscribe {
+  text-align: center;
+  a {
+    display: block;
+  }
+  .fa-rss {
+    font-size: 2em;
+  }
+}
+
 // TALKS
+
 .talks {
   border-left: 3px solid #00BFFC;
   padding-left: 1em;
