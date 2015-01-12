@@ -408,6 +408,10 @@ img {
 
 .post pre.terminal code { background-color: #333; }
 
+.post--sub--heading {
+  font-weight: 900!important;
+}
+
 /* Syntax highlighting styles */
 /* ----------------------------------------------------------*/
 
@@ -585,5 +589,12 @@ coming {
       cursor: pointer;
       background: rgb(49, 175, 235);
     }
+  }
+}
+
+/* BLOGS FIX */
+.post-page-content {
+  .post {
+    padding : 0;
   }
 }

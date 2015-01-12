@@ -722,56 +722,41 @@ h1, h2, h3, h4, h5, h6, hgroup, ul, ol, dl, li, blockquote, p, address, table, f
 }
 
 @-moz-keyframes spin {
-  /* line 4, ../sass/partials/_fontawesome.scss */
   0% {
     -moz-transform: rotate(0deg);
   }
-
-  /* line 4, ../sass/partials/_fontawesome.scss */
   100% {
     -moz-transform: rotate(359deg);
   }
 }
 @-webkit-keyframes spin {
-  /* line 4, ../sass/partials/_fontawesome.scss */
   0% {
     -webkit-transform: rotate(0deg);
   }
-
-  /* line 4, ../sass/partials/_fontawesome.scss */
   100% {
     -webkit-transform: rotate(359deg);
   }
 }
 @-o-keyframes spin {
-  /* line 4, ../sass/partials/_fontawesome.scss */
   0% {
     -o-transform: rotate(0deg);
   }
-
-  /* line 4, ../sass/partials/_fontawesome.scss */
   100% {
     -o-transform: rotate(359deg);
   }
 }
 @-ms-keyframes spin {
-  /* line 4, ../sass/partials/_fontawesome.scss */
   0% {
     -ms-transform: rotate(0deg);
   }
-
-  /* line 4, ../sass/partials/_fontawesome.scss */
   100% {
     -ms-transform: rotate(359deg);
   }
 }
 @keyframes spin {
-  /* line 4, ../sass/partials/_fontawesome.scss */
   0% {
     transform: rotate(0deg);
   }
-
-  /* line 4, ../sass/partials/_fontawesome.scss */
   100% {
     transform: rotate(359deg);
   }
@@ -2824,56 +2809,41 @@ h1, h2, h3, h4, h5, h6, hgroup, ul, ol, dl, li, blockquote, p, address, table, f
 }
 
 @-moz-keyframes spin {
-  /* line 92, ../sass/partials/_fontawesome.scss */
   0% {
     -moz-transform: rotate(0deg);
   }
-
-  /* line 95, ../sass/partials/_fontawesome.scss */
   100% {
     -moz-transform: rotate(359deg);
   }
 }
 @-webkit-keyframes spin {
-  /* line 100, ../sass/partials/_fontawesome.scss */
   0% {
     -webkit-transform: rotate(0deg);
   }
-
-  /* line 103, ../sass/partials/_fontawesome.scss */
   100% {
     -webkit-transform: rotate(359deg);
   }
 }
 @-o-keyframes spin {
-  /* line 108, ../sass/partials/_fontawesome.scss */
   0% {
     -o-transform: rotate(0deg);
   }
-
-  /* line 111, ../sass/partials/_fontawesome.scss */
   100% {
     -o-transform: rotate(359deg);
   }
 }
 @-ms-keyframes spin {
-  /* line 116, ../sass/partials/_fontawesome.scss */
   0% {
     -ms-transform: rotate(0deg);
   }
-
-  /* line 119, ../sass/partials/_fontawesome.scss */
   100% {
     -ms-transform: rotate(359deg);
   }
 }
 @keyframes spin {
-  /* line 124, ../sass/partials/_fontawesome.scss */
   0% {
     transform: rotate(0deg);
   }
-
-  /* line 127, ../sass/partials/_fontawesome.scss */
   100% {
     transform: rotate(359deg);
   }
@@ -4946,7 +4916,7 @@ img {
   width: 250px;
   height: 100%;
   background: #1d1f21;
-  color: white;
+  color: #ffffff;
   float: left;
   margin-right: 4em;
   position: fixed;
@@ -4976,7 +4946,7 @@ img {
 #my-social a {
   display: inline-block;
   width: 100%;
-  color: white;
+  color: #ffffff;
   margin-bottom: 1em;
 }
 /* line 116, ../sass/components/_global.scss */
@@ -4987,7 +4957,7 @@ img {
   vertical-align: middle;
   text-align: center;
   border-radius: 50%;
-  background: white;
+  background: #ffffff;
   color: #1d1f21;
 }
 /* line 127, ../sass/components/_global.scss */
@@ -5325,61 +5295,66 @@ ul.posts p {
   background-color: #333;
 }
 
+/* line 411, ../sass/components/_global.scss */
+.post--sub--heading {
+  font-weight: 900 !important;
+}
+
 /* Syntax highlighting styles */
 /* ----------------------------------------------------------*/
-/* line 414, ../sass/components/_global.scss */
+/* line 418, ../sass/components/_global.scss */
 .highlight {
   background: #ffffff;
 }
 
-/* line 415, ../sass/components/_global.scss */
+/* line 419, ../sass/components/_global.scss */
 .highlight .c {
   color: #999988;
   font-style: italic;
 }
 
 /* Comment */
-/* line 416, ../sass/components/_global.scss */
+/* line 420, ../sass/components/_global.scss */
 .highlight .err {
   color: #a61717;
   background-color: #e3d2d2;
 }
 
 /* Error */
-/* line 417, ../sass/components/_global.scss */
+/* line 421, ../sass/components/_global.scss */
 .highlight .k {
   font-weight: bold;
 }
 
 /* Keyword */
-/* line 418, ../sass/components/_global.scss */
+/* line 422, ../sass/components/_global.scss */
 .highlight .o {
   font-weight: bold;
 }
 
 /* Operator */
-/* line 419, ../sass/components/_global.scss */
+/* line 423, ../sass/components/_global.scss */
 .highlight .cm {
   color: #999988;
   font-style: italic;
 }
 
 /* Comment.Multiline */
-/* line 420, ../sass/components/_global.scss */
+/* line 424, ../sass/components/_global.scss */
 .highlight .cp {
   color: #999999;
   font-weight: bold;
 }
 
 /* Comment.Preproc */
-/* line 421, ../sass/components/_global.scss */
+/* line 425, ../sass/components/_global.scss */
 .highlight .c1 {
   color: #999988;
   font-style: italic;
 }
 
 /* Comment.Single */
-/* line 422, ../sass/components/_global.scss */
+/* line 426, ../sass/components/_global.scss */
 .highlight .cs {
   color: #999999;
   font-weight: bold;
@@ -5387,326 +5362,326 @@ ul.posts p {
 }
 
 /* Comment.Special */
-/* line 423, ../sass/components/_global.scss */
+/* line 427, ../sass/components/_global.scss */
 .highlight .gd {
   color: #000000;
   background-color: #ffdddd;
 }
 
 /* Generic.Deleted */
-/* line 424, ../sass/components/_global.scss */
+/* line 428, ../sass/components/_global.scss */
 .highlight .gd .x {
   color: #000000;
   background-color: #ffaaaa;
 }
 
 /* Generic.Deleted.Specific */
-/* line 425, ../sass/components/_global.scss */
+/* line 429, ../sass/components/_global.scss */
 .highlight .ge {
   font-style: italic;
 }
 
 /* Generic.Emph */
-/* line 426, ../sass/components/_global.scss */
+/* line 430, ../sass/components/_global.scss */
 .highlight .gr {
   color: #aa0000;
 }
 
 /* Generic.Error */
-/* line 427, ../sass/components/_global.scss */
+/* line 431, ../sass/components/_global.scss */
 .highlight .gh {
   color: #999999;
 }
 
 /* Generic.Heading */
-/* line 428, ../sass/components/_global.scss */
+/* line 432, ../sass/components/_global.scss */
 .highlight .gi {
   color: #000000;
   background-color: #ddffdd;
 }
 
 /* Generic.Inserted */
-/* line 429, ../sass/components/_global.scss */
+/* line 433, ../sass/components/_global.scss */
 .highlight .gi .x {
   color: #000000;
   background-color: #aaffaa;
 }
 
 /* Generic.Inserted.Specific */
-/* line 430, ../sass/components/_global.scss */
+/* line 434, ../sass/components/_global.scss */
 .highlight .go {
   color: #888888;
 }
 
 /* Generic.Output */
-/* line 431, ../sass/components/_global.scss */
+/* line 435, ../sass/components/_global.scss */
 .highlight .gp {
   color: #555555;
 }
 
 /* Generic.Prompt */
-/* line 432, ../sass/components/_global.scss */
+/* line 436, ../sass/components/_global.scss */
 .highlight .gs {
   font-weight: bold;
 }
 
 /* Generic.Strong */
-/* line 433, ../sass/components/_global.scss */
+/* line 437, ../sass/components/_global.scss */
 .highlight .gu {
   color: #aaaaaa;
 }
 
 /* Generic.Subheading */
-/* line 434, ../sass/components/_global.scss */
+/* line 438, ../sass/components/_global.scss */
 .highlight .gt {
   color: #aa0000;
 }
 
 /* Generic.Traceback */
-/* line 435, ../sass/components/_global.scss */
+/* line 439, ../sass/components/_global.scss */
 .highlight .kc {
   font-weight: bold;
 }
 
 /* Keyword.Constant */
-/* line 436, ../sass/components/_global.scss */
+/* line 440, ../sass/components/_global.scss */
 .highlight .kd {
   font-weight: bold;
 }
 
 /* Keyword.Declaration */
-/* line 437, ../sass/components/_global.scss */
+/* line 441, ../sass/components/_global.scss */
 .highlight .kp {
   font-weight: bold;
 }
 
 /* Keyword.Pseudo */
-/* line 438, ../sass/components/_global.scss */
+/* line 442, ../sass/components/_global.scss */
 .highlight .kr {
   font-weight: bold;
 }
 
 /* Keyword.Reserved */
-/* line 439, ../sass/components/_global.scss */
+/* line 443, ../sass/components/_global.scss */
 .highlight .kt {
   color: #445588;
   font-weight: bold;
 }
 
 /* Keyword.Type */
-/* line 440, ../sass/components/_global.scss */
+/* line 444, ../sass/components/_global.scss */
 .highlight .m {
   color: #009999;
 }
 
 /* Literal.Number */
-/* line 441, ../sass/components/_global.scss */
+/* line 445, ../sass/components/_global.scss */
 .highlight .s {
-  color: #dd1144;
+  color: #d14;
 }
 
 /* Literal.String */
-/* line 442, ../sass/components/_global.scss */
+/* line 446, ../sass/components/_global.scss */
 .highlight .na {
-  color: teal;
+  color: #008080;
 }
 
 /* Name.Attribute */
-/* line 443, ../sass/components/_global.scss */
+/* line 447, ../sass/components/_global.scss */
 .highlight .nb {
-  color: #0086b3;
+  color: #0086B3;
 }
 
 /* Name.Builtin */
-/* line 444, ../sass/components/_global.scss */
+/* line 448, ../sass/components/_global.scss */
 .highlight .nc {
   color: #445588;
   font-weight: bold;
 }
 
 /* Name.Class */
-/* line 445, ../sass/components/_global.scss */
+/* line 449, ../sass/components/_global.scss */
 .highlight .no {
-  color: teal;
+  color: #008080;
 }
 
 /* Name.Constant */
-/* line 446, ../sass/components/_global.scss */
+/* line 450, ../sass/components/_global.scss */
 .highlight .ni {
-  color: purple;
+  color: #800080;
 }
 
 /* Name.Entity */
-/* line 447, ../sass/components/_global.scss */
+/* line 451, ../sass/components/_global.scss */
 .highlight .ne {
   color: #990000;
   font-weight: bold;
 }
 
 /* Name.Exception */
-/* line 448, ../sass/components/_global.scss */
+/* line 452, ../sass/components/_global.scss */
 .highlight .nf {
   color: #990000;
   font-weight: bold;
 }
 
 /* Name.Function */
-/* line 449, ../sass/components/_global.scss */
+/* line 453, ../sass/components/_global.scss */
 .highlight .nn {
   color: #555555;
 }
 
 /* Name.Namespace */
-/* line 450, ../sass/components/_global.scss */
+/* line 454, ../sass/components/_global.scss */
 .highlight .nt {
-  color: navy;
+  color: #000080;
 }
 
 /* Name.Tag */
-/* line 451, ../sass/components/_global.scss */
+/* line 455, ../sass/components/_global.scss */
 .highlight .nv {
-  color: teal;
+  color: #008080;
 }
 
 /* Name.Variable */
-/* line 452, ../sass/components/_global.scss */
+/* line 456, ../sass/components/_global.scss */
 .highlight .ow {
   font-weight: bold;
 }
 
 /* Operator.Word */
-/* line 453, ../sass/components/_global.scss */
+/* line 457, ../sass/components/_global.scss */
 .highlight .w {
   color: #bbbbbb;
 }
 
 /* Text.Whitespace */
-/* line 454, ../sass/components/_global.scss */
+/* line 458, ../sass/components/_global.scss */
 .highlight .mf {
   color: #009999;
 }
 
 /* Literal.Number.Float */
-/* line 455, ../sass/components/_global.scss */
+/* line 459, ../sass/components/_global.scss */
 .highlight .mh {
   color: #009999;
 }
 
 /* Literal.Number.Hex */
-/* line 456, ../sass/components/_global.scss */
+/* line 460, ../sass/components/_global.scss */
 .highlight .mi {
   color: #009999;
 }
 
 /* Literal.Number.Integer */
-/* line 457, ../sass/components/_global.scss */
+/* line 461, ../sass/components/_global.scss */
 .highlight .mo {
   color: #009999;
 }
 
 /* Literal.Number.Oct */
-/* line 458, ../sass/components/_global.scss */
+/* line 462, ../sass/components/_global.scss */
 .highlight .sb {
-  color: #dd1144;
+  color: #d14;
 }
 
 /* Literal.String.Backtick */
-/* line 459, ../sass/components/_global.scss */
+/* line 463, ../sass/components/_global.scss */
 .highlight .sc {
-  color: #dd1144;
+  color: #d14;
 }
 
 /* Literal.String.Char */
-/* line 460, ../sass/components/_global.scss */
+/* line 464, ../sass/components/_global.scss */
 .highlight .sd {
-  color: #dd1144;
+  color: #d14;
 }
 
 /* Literal.String.Doc */
-/* line 461, ../sass/components/_global.scss */
+/* line 465, ../sass/components/_global.scss */
 .highlight .s2 {
-  color: #dd1144;
+  color: #d14;
 }
 
 /* Literal.String.Double */
-/* line 462, ../sass/components/_global.scss */
+/* line 466, ../sass/components/_global.scss */
 .highlight .se {
-  color: #dd1144;
+  color: #d14;
 }
 
 /* Literal.String.Escape */
-/* line 463, ../sass/components/_global.scss */
+/* line 467, ../sass/components/_global.scss */
 .highlight .sh {
-  color: #dd1144;
+  color: #d14;
 }
 
 /* Literal.String.Heredoc */
-/* line 464, ../sass/components/_global.scss */
+/* line 468, ../sass/components/_global.scss */
 .highlight .si {
-  color: #dd1144;
+  color: #d14;
 }
 
 /* Literal.String.Interpol */
-/* line 465, ../sass/components/_global.scss */
+/* line 469, ../sass/components/_global.scss */
 .highlight .sx {
-  color: #dd1144;
+  color: #d14;
 }
 
 /* Literal.String.Other */
-/* line 466, ../sass/components/_global.scss */
+/* line 470, ../sass/components/_global.scss */
 .highlight .sr {
   color: #009926;
 }
 
 /* Literal.String.Regex */
-/* line 467, ../sass/components/_global.scss */
+/* line 471, ../sass/components/_global.scss */
 .highlight .s1 {
-  color: #dd1144;
+  color: #d14;
 }
 
 /* Literal.String.Single */
-/* line 468, ../sass/components/_global.scss */
+/* line 472, ../sass/components/_global.scss */
 .highlight .ss {
-  color: #ff0099;
+  color: #FF0099;
 }
 
 /* Literal.String.Symbol */
-/* line 469, ../sass/components/_global.scss */
+/* line 473, ../sass/components/_global.scss */
 .highlight .bp {
   color: #999999;
 }
 
 /* Name.Builtin.Pseudo */
-/* line 470, ../sass/components/_global.scss */
+/* line 474, ../sass/components/_global.scss */
 .highlight .vc {
-  color: teal;
+  color: #008080;
 }
 
 /* Name.Variable.Class */
-/* line 471, ../sass/components/_global.scss */
+/* line 475, ../sass/components/_global.scss */
 .highlight .vg {
-  color: teal;
+  color: #008080;
 }
 
 /* Name.Variable.Global */
-/* line 472, ../sass/components/_global.scss */
+/* line 476, ../sass/components/_global.scss */
 .highlight .vi {
-  color: teal;
+  color: #008080;
 }
 
 /* Name.Variable.Instance */
-/* line 473, ../sass/components/_global.scss */
+/* line 477, ../sass/components/_global.scss */
 .highlight .il {
   color: #009999;
 }
 
 /* Literal.Number.Integer.Long */
-/* line 476, ../sass/components/_global.scss */
+/* line 480, ../sass/components/_global.scss */
 .contact {
   max-width: 500px;
   margin: auto;
 }
-/* line 481, ../sass/components/_global.scss */
+/* line 485, ../sass/components/_global.scss */
 .contact input, .contact textarea {
   display: block;
   padding: 0.5em 1em;
@@ -5718,11 +5693,11 @@ ul.posts p {
   text-transform: lowercase;
   color: #20C1FF;
 }
-/* line 494, ../sass/components/_global.scss */
+/* line 498, ../sass/components/_global.scss */
 .contact textarea {
   min-height: 10em;
 }
-/* line 498, ../sass/components/_global.scss */
+/* line 502, ../sass/components/_global.scss */
 .contact input[type="submit"] {
   background: #20C1FF;
   border: none;
@@ -5730,61 +5705,61 @@ ul.posts p {
   color: #fff;
   border-bottom: 5px solid #1975B2;
 }
-/* line 505, ../sass/components/_global.scss */
+/* line 509, ../sass/components/_global.scss */
 .contact input[type="submit"]:hover {
   border-bottom: 5px solid #005C99;
 }
 
-/* line 513, ../sass/components/_global.scss */
+/* line 517, ../sass/components/_global.scss */
 .notes {
   font-weight: 300;
   font-size: 12px;
   color: #EB1818;
 }
-/* line 518, ../sass/components/_global.scss */
+/* line 522, ../sass/components/_global.scss */
 .notes span {
   font-weight: 600;
 }
 
-/* line 525, ../sass/components/_global.scss */
+/* line 529, ../sass/components/_global.scss */
 .rss-subscribe {
   text-align: center;
 }
-/* line 527, ../sass/components/_global.scss */
+/* line 531, ../sass/components/_global.scss */
 .rss-subscribe a {
   display: block;
 }
-/* line 530, ../sass/components/_global.scss */
+/* line 534, ../sass/components/_global.scss */
 .rss-subscribe .fa-rss {
   font-size: 2em;
 }
 
-/* line 537, ../sass/components/_global.scss */
+/* line 541, ../sass/components/_global.scss */
 .talks {
   border-left: 3px solid #00BFFC;
   padding-left: 1em;
   margin-bottom: 2.5em;
 }
-/* line 542, ../sass/components/_global.scss */
+/* line 546, ../sass/components/_global.scss */
 .talks h6 {
   font-weight: 600;
   color: #AAA;
   margin-top: 0;
 }
-/* line 549, ../sass/components/_global.scss */
+/* line 553, ../sass/components/_global.scss */
 .talks h4 {
   margin-top: 1em;
   letter-spacing: 0;
 }
 
-/* line 554, ../sass/components/_global.scss */
+/* line 558, ../sass/components/_global.scss */
 .timed {
   color: #AAA;
   margin-bottom: 0;
   display: inline-block;
 }
 
-/* line 560, ../sass/components/_global.scss */
+/* line 564, ../sass/components/_global.scss */
 coming {
   color: #fff;
   font-size: 11px;
@@ -5796,16 +5771,16 @@ coming {
   vertical-align: middle;
 }
 
-/* line 570, ../sass/components/_global.scss */
+/* line 574, ../sass/components/_global.scss */
 .hire {
   text-align: center;
   margin-top: 3em;
 }
-/* line 573, ../sass/components/_global.scss */
+/* line 577, ../sass/components/_global.scss */
 .hire p {
   text-decoration: line-through;
 }
-/* line 576, ../sass/components/_global.scss */
+/* line 580, ../sass/components/_global.scss */
 .hire p, .hire a {
   background: #288fc0;
   display: inline-block;
@@ -5815,10 +5790,16 @@ coming {
   color: #fff;
   font-weight: 300;
 }
-/* line 584, ../sass/components/_global.scss */
+/* line 588, ../sass/components/_global.scss */
 .hire p:hover, .hire a:hover {
   cursor: pointer;
   background: #31afeb;
+}
+
+/* BLOGS FIX */
+/* line 597, ../sass/components/_global.scss */
+.post-page-content .post {
+  padding: 0;
 }
 
 /* line 2, ../sass/components/_csstricks.scss */
@@ -5876,21 +5857,18 @@ coming {
 }
 
 @-webkit-keyframes rainy {
-  /* line 59, ../sass/components/_csstricks.scss */
   50% {
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
   }
 }
 @keyframes rainy {
-  /* line 62, ../sass/components/_csstricks.scss */
   50% {
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
   }
 }
 @-webkit-keyframes rainy_shadow {
-  /* line 65, ../sass/components/_csstricks.scss */
   50% {
     -webkit-transform: translateY(20px) scale(1);
     transform: translateY(20px) scale(1);
@@ -5898,7 +5876,6 @@ coming {
   }
 }
 @keyframes rainy_shadow {
-  /* line 68, ../sass/components/_csstricks.scss */
   50% {
     -webkit-transform: translateY(20px) scale(1);
     transform: translateY(20px) scale(1);
@@ -5906,101 +5883,71 @@ coming {
   }
 }
 @-webkit-keyframes rainy_rain {
-  /* line 71, ../sass/components/_csstricks.scss */
   0% {
-    -webkit-box-shadow: transparent 30px 30px, transparent 40px 40px, black 50px 75px, black 55px 50px, black 70px 100px, black 80px 95px, black 110px 45px, black 90px 35px;
-    box-shadow: transparent 30px 30px, transparent 40px 40px, black 50px 75px, black 55px 50px, black 70px 100px, black 80px 95px, black 110px 45px, black 90px 35px;
+    -webkit-box-shadow: transparent 30px 30px, transparent 40px 40px, #000 50px 75px, #000 55px 50px, #000 70px 100px, #000 80px 95px, #000 110px 45px, #000 90px 35px;
+    box-shadow: transparent 30px 30px, transparent 40px 40px, #000 50px 75px, #000 55px 50px, #000 70px 100px, #000 80px 95px, #000 110px 45px, #000 90px 35px;
   }
-
-  /* line 91, ../sass/components/_csstricks.scss */
   25% {
-    -webkit-box-shadow: black 30px 45px, black 40px 60px, black 50px 90px, black 55px 65px, transparent 70px 120px, transparent 80px 120px, black 110px 70px, black 90px 60px;
-    box-shadow: black 30px 45px, black 40px 60px, black 50px 90px, black 55px 65px, transparent 70px 120px, transparent 80px 120px, black 110px 70px, black 90px 60px;
+    -webkit-box-shadow: #000 30px 45px, #000 40px 60px, #000 50px 90px, #000 55px 65px, transparent 70px 120px, transparent 80px 120px, #000 110px 70px, #000 90px 60px;
+    box-shadow: #000 30px 45px, #000 40px 60px, #000 50px 90px, #000 55px 65px, transparent 70px 120px, transparent 80px 120px, #000 110px 70px, #000 90px 60px;
   }
-
-  /* line 111, ../sass/components/_csstricks.scss */
   26% {
-    -webkit-box-shadow: black 30px 45px, black 40px 60px, black 50px 90px, black 55px 65px, transparent 70px 40px, transparent 80px 20px, black 110px 70px, black 90px 60px;
-    box-shadow: black 30px 45px, black 40px 60px, black 50px 90px, black 55px 65px, transparent 70px 40px, transparent 80px 20px, black 110px 70px, black 90px 60px;
+    -webkit-box-shadow: #000 30px 45px, #000 40px 60px, #000 50px 90px, #000 55px 65px, transparent 70px 40px, transparent 80px 20px, #000 110px 70px, #000 90px 60px;
+    box-shadow: #000 30px 45px, #000 40px 60px, #000 50px 90px, #000 55px 65px, transparent 70px 40px, transparent 80px 20px, #000 110px 70px, #000 90px 60px;
   }
-
-  /* line 131, ../sass/components/_csstricks.scss */
   50% {
-    -webkit-box-shadow: black 30px 70px, black 40px 80px, transparent 50px 100px, black 55px 80px, black 70px 60px, black 80px 45px, black 110px 95px, black 90px 85px;
-    box-shadow: black 30px 70px, black 40px 80px, transparent 50px 100px, black 55px 80px, black 70px 60px, black 80px 45px, black 110px 95px, black 90px 85px;
+    -webkit-box-shadow: #000 30px 70px, #000 40px 80px, transparent 50px 100px, #000 55px 80px, #000 70px 60px, #000 80px 45px, #000 110px 95px, #000 90px 85px;
+    box-shadow: #000 30px 70px, #000 40px 80px, transparent 50px 100px, #000 55px 80px, #000 70px 60px, #000 80px 45px, #000 110px 95px, #000 90px 85px;
   }
-
-  /* line 151, ../sass/components/_csstricks.scss */
   51% {
-    -webkit-box-shadow: black 30px 70px, black 40px 80px, transparent 50px 45px, black 55px 80px, black 70px 60px, black 80px 45px, black 110px 95px, black 90px 85px;
-    box-shadow: black 30px 70px, black 40px 80px, transparent 50px 45px, black 55px 80px, black 70px 60px, black 80px 45px, black 110px 95px, black 90px 85px;
+    -webkit-box-shadow: #000 30px 70px, #000 40px 80px, transparent 50px 45px, #000 55px 80px, #000 70px 60px, #000 80px 45px, #000 110px 95px, #000 90px 85px;
+    box-shadow: #000 30px 70px, #000 40px 80px, transparent 50px 45px, #000 55px 80px, #000 70px 60px, #000 80px 45px, #000 110px 95px, #000 90px 85px;
   }
-
-  /* line 171, ../sass/components/_csstricks.scss */
   75% {
-    -webkit-box-shadow: black 30px 95px, black 40px 100px, black 50px 60px, transparent 55px 95px, black 70px 80px, black 80px 70px, transparent 110px 120px, transparent 90px 110px;
-    box-shadow: black 30px 95px, black 40px 100px, black 50px 60px, transparent 55px 95px, black 70px 80px, black 80px 70px, transparent 110px 120px, transparent 90px 110px;
+    -webkit-box-shadow: #000 30px 95px, #000 40px 100px, #000 50px 60px, transparent 55px 95px, #000 70px 80px, #000 80px 70px, transparent 110px 120px, transparent 90px 110px;
+    box-shadow: #000 30px 95px, #000 40px 100px, #000 50px 60px, transparent 55px 95px, #000 70px 80px, #000 80px 70px, transparent 110px 120px, transparent 90px 110px;
   }
-
-  /* line 191, ../sass/components/_csstricks.scss */
   76% {
-    -webkit-box-shadow: black 30px 95px, black 40px 100px, black 50px 60px, transparent 55px 35px, black 70px 80px, black 80px 70px, transparent 110px 25px, transparent 90px 15px;
-    box-shadow: black 30px 95px, black 40px 100px, black 50px 60px, transparent 55px 35px, black 70px 80px, black 80px 70px, transparent 110px 25px, transparent 90px 15px;
+    -webkit-box-shadow: #000 30px 95px, #000 40px 100px, #000 50px 60px, transparent 55px 35px, #000 70px 80px, #000 80px 70px, transparent 110px 25px, transparent 90px 15px;
+    box-shadow: #000 30px 95px, #000 40px 100px, #000 50px 60px, transparent 55px 35px, #000 70px 80px, #000 80px 70px, transparent 110px 25px, transparent 90px 15px;
   }
-
-  /* line 211, ../sass/components/_csstricks.scss */
   100% {
-    -webkit-box-shadow: transparent 30px 120px, transparent 40px 120px, black 50px 75px, black 55px 50px, black 70px 100px, black 80px 95px, black 110px 45px, black 90px 35px;
-    box-shadow: transparent 30px 120px, transparent 40px 120px, black 50px 75px, black 55px 50px, black 70px 100px, black 80px 95px, black 110px 45px, black 90px 35px;
+    -webkit-box-shadow: transparent 30px 120px, transparent 40px 120px, #000 50px 75px, #000 55px 50px, #000 70px 100px, #000 80px 95px, #000 110px 45px, #000 90px 35px;
+    box-shadow: transparent 30px 120px, transparent 40px 120px, #000 50px 75px, #000 55px 50px, #000 70px 100px, #000 80px 95px, #000 110px 45px, #000 90px 35px;
   }
 }
 @keyframes rainy_rain {
-  /* line 233, ../sass/components/_csstricks.scss */
   0% {
-    -webkit-box-shadow: transparent 30px 30px, transparent 40px 40px, black 50px 75px, black 55px 50px, black 70px 100px, black 80px 95px, black 110px 45px, black 90px 35px;
-    box-shadow: transparent 30px 30px, transparent 40px 40px, black 50px 75px, black 55px 50px, black 70px 100px, black 80px 95px, black 110px 45px, black 90px 35px;
+    -webkit-box-shadow: transparent 30px 30px, transparent 40px 40px, #000 50px 75px, #000 55px 50px, #000 70px 100px, #000 80px 95px, #000 110px 45px, #000 90px 35px;
+    box-shadow: transparent 30px 30px, transparent 40px 40px, #000 50px 75px, #000 55px 50px, #000 70px 100px, #000 80px 95px, #000 110px 45px, #000 90px 35px;
   }
-
-  /* line 253, ../sass/components/_csstricks.scss */
   25% {
-    -webkit-box-shadow: black 30px 45px, black 40px 60px, black 50px 90px, black 55px 65px, transparent 70px 120px, transparent 80px 120px, black 110px 70px, black 90px 60px;
-    box-shadow: black 30px 45px, black 40px 60px, black 50px 90px, black 55px 65px, transparent 70px 120px, transparent 80px 120px, black 110px 70px, black 90px 60px;
+    -webkit-box-shadow: #000 30px 45px, #000 40px 60px, #000 50px 90px, #000 55px 65px, transparent 70px 120px, transparent 80px 120px, #000 110px 70px, #000 90px 60px;
+    box-shadow: #000 30px 45px, #000 40px 60px, #000 50px 90px, #000 55px 65px, transparent 70px 120px, transparent 80px 120px, #000 110px 70px, #000 90px 60px;
   }
-
-  /* line 273, ../sass/components/_csstricks.scss */
   26% {
-    -webkit-box-shadow: black 30px 45px, black 40px 60px, black 50px 90px, black 55px 65px, transparent 70px 40px, transparent 80px 20px, black 110px 70px, black 90px 60px;
-    box-shadow: black 30px 45px, black 40px 60px, black 50px 90px, black 55px 65px, transparent 70px 40px, transparent 80px 20px, black 110px 70px, black 90px 60px;
+    -webkit-box-shadow: #000 30px 45px, #000 40px 60px, #000 50px 90px, #000 55px 65px, transparent 70px 40px, transparent 80px 20px, #000 110px 70px, #000 90px 60px;
+    box-shadow: #000 30px 45px, #000 40px 60px, #000 50px 90px, #000 55px 65px, transparent 70px 40px, transparent 80px 20px, #000 110px 70px, #000 90px 60px;
   }
-
-  /* line 293, ../sass/components/_csstricks.scss */
   50% {
-    -webkit-box-shadow: black 30px 70px, black 40px 80px, transparent 50px 100px, black 55px 80px, black 70px 60px, black 80px 45px, black 110px 95px, black 90px 85px;
-    box-shadow: black 30px 70px, black 40px 80px, transparent 50px 100px, black 55px 80px, black 70px 60px, black 80px 45px, black 110px 95px, black 90px 85px;
+    -webkit-box-shadow: #000 30px 70px, #000 40px 80px, transparent 50px 100px, #000 55px 80px, #000 70px 60px, #000 80px 45px, #000 110px 95px, #000 90px 85px;
+    box-shadow: #000 30px 70px, #000 40px 80px, transparent 50px 100px, #000 55px 80px, #000 70px 60px, #000 80px 45px, #000 110px 95px, #000 90px 85px;
   }
-
-  /* line 313, ../sass/components/_csstricks.scss */
   51% {
-    -webkit-box-shadow: black 30px 70px, black 40px 80px, transparent 50px 45px, black 55px 80px, black 70px 60px, black 80px 45px, black 110px 95px, black 90px 85px;
-    box-shadow: black 30px 70px, black 40px 80px, transparent 50px 45px, black 55px 80px, black 70px 60px, black 80px 45px, black 110px 95px, black 90px 85px;
+    -webkit-box-shadow: #000 30px 70px, #000 40px 80px, transparent 50px 45px, #000 55px 80px, #000 70px 60px, #000 80px 45px, #000 110px 95px, #000 90px 85px;
+    box-shadow: #000 30px 70px, #000 40px 80px, transparent 50px 45px, #000 55px 80px, #000 70px 60px, #000 80px 45px, #000 110px 95px, #000 90px 85px;
   }
-
-  /* line 333, ../sass/components/_csstricks.scss */
   75% {
-    -webkit-box-shadow: black 30px 95px, black 40px 100px, black 50px 60px, transparent 55px 95px, black 70px 80px, black 80px 70px, transparent 110px 120px, transparent 90px 110px;
-    box-shadow: black 30px 95px, black 40px 100px, black 50px 60px, transparent 55px 95px, black 70px 80px, black 80px 70px, transparent 110px 120px, transparent 90px 110px;
+    -webkit-box-shadow: #000 30px 95px, #000 40px 100px, #000 50px 60px, transparent 55px 95px, #000 70px 80px, #000 80px 70px, transparent 110px 120px, transparent 90px 110px;
+    box-shadow: #000 30px 95px, #000 40px 100px, #000 50px 60px, transparent 55px 95px, #000 70px 80px, #000 80px 70px, transparent 110px 120px, transparent 90px 110px;
   }
-
-  /* line 353, ../sass/components/_csstricks.scss */
   76% {
-    -webkit-box-shadow: black 30px 95px, black 40px 100px, black 50px 60px, transparent 55px 35px, black 70px 80px, black 80px 70px, transparent 110px 25px, transparent 90px 15px;
-    box-shadow: black 30px 95px, black 40px 100px, black 50px 60px, transparent 55px 35px, black 70px 80px, black 80px 70px, transparent 110px 25px, transparent 90px 15px;
+    -webkit-box-shadow: #000 30px 95px, #000 40px 100px, #000 50px 60px, transparent 55px 35px, #000 70px 80px, #000 80px 70px, transparent 110px 25px, transparent 90px 15px;
+    box-shadow: #000 30px 95px, #000 40px 100px, #000 50px 60px, transparent 55px 35px, #000 70px 80px, #000 80px 70px, transparent 110px 25px, transparent 90px 15px;
   }
-
-  /* line 373, ../sass/components/_csstricks.scss */
   100% {
-    -webkit-box-shadow: transparent 30px 120px, transparent 40px 120px, black 50px 75px, black 55px 50px, black 70px 100px, black 80px 95px, black 110px 45px, black 90px 35px;
-    box-shadow: transparent 30px 120px, transparent 40px 120px, black 50px 75px, black 55px 50px, black 70px 100px, black 80px 95px, black 110px 45px, black 90px 35px;
+    -webkit-box-shadow: transparent 30px 120px, transparent 40px 120px, #000 50px 75px, #000 55px 50px, #000 70px 100px, #000 80px 95px, #000 110px 45px, #000 90px 35px;
+    box-shadow: transparent 30px 120px, transparent 40px 120px, #000 50px 75px, #000 55px 50px, #000 70px 100px, #000 80px 95px, #000 110px 45px, #000 90px 35px;
   }
 }
 /* media queries */
@@ -6064,7 +6011,7 @@ coming {
   .menu a {
     text-transform: lowercase;
     font-weight: 400;
-    color: white !important;
+    color: #fff !important;
   }
 
   /* line 53, ../sass/partials/_mediaqueries.scss */
