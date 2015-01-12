@@ -171,9 +171,8 @@ img {
 
 /* Site footer */
 
-.footer-nav {
+.blog-nav {
   text-align: center;
-  background: #3F3F3F;
   padding: 0.3em;
   a {
     text-transform: uppercase;
@@ -283,9 +282,22 @@ img {
 /* Post styles */
 /* ----------------------------------------------------------*/
 
+#background-pic {
+  min-height: 600px;
+  background-color: #000;
+  position: relative;
+  .post-header {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
+
 .post-page-content {
   max-width: 980px;
   margin: auto;
+  margin-top: 1.5em;
 }
 
 .addthis_sharing_toolbox {
@@ -295,6 +307,7 @@ img {
 .post-header { margin: 10px 0 30px; }
 
 .post-header h1 {
+  color: #fff;
   font-size: 42px;
   letter-spacing: -1.75px;
   line-height: 1.3;
