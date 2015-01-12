@@ -22,12 +22,12 @@ Or using keyboard `command+shift+P` on Mac, and `Ctrl+shift+p` on windows
 <h3 class="post--sub--heading">Sublime text</h3>
 Sublime text, cross platform edior, is the most evangelised text editor in place, it is versatile and comes with out of box packages that can be installed on this light weight editor. Python based plugin API makes it fast. Sublime has won over other editors because of rapid updates available both addressing the speed-n-efficiency and functionality. believe it or not, but this beautiful editor is managed by one person. Browsing through file to file in ST is done in jeffy with such ease and finesses. This editor is free, but you can donate for the effors done to make Sublime text such a beauty.
 
-Link: [Sublime website](www.sublimetext.com) for [Latest version](www.sublimetext.com/3)
+Link: [Sublime website](http://sublimetext.com) for [Latest version](http://sublimetext.com/3)
 
 <h3 class="post--sub--heading">Github Atom</h3>
 Atom was recently launched by GitHub, It is new kind of block spreadheaded by GitHub.  It appeared out of the blue in early 2013 and at first was a partially closed source application with the core being closed and all the little bits were opened. In my opininon, Atom is an attempt to rebuild Sublime so essentially it is a feature for feature clone. However, unlike Sublime Atom is a Web App wrapped in a desktop shells and runs inside a webkit instance. This is built on top of node.js and is extremely faster. It is hackable to the core. You can disect this editor as per your needs.
 
-Link: [Atom website](www.atom.io)
+Link: [Atom website](http://atom.io)
 
 <h3 class="post--sub--heading">VIM</h3>
 
@@ -67,3 +67,26 @@ This is toggle device Panel introduced in chrome lately, here we can view differ
 * __Audits.__ Audit is carried during page load and is useful for finding unused css styles.
 
 * __Console.__ The Console panel is primarily for testing Applications and web pages. Here we initiate debugging and create JavaScript profiles.
+
+<h3 class="post--sub--heading">Compass</h3>
+
+Compass is an open-source CSS authoring framework which uses the Sass stylesheet language to make writing stylesheets powerful and easy. If you're not familiar with Sass, Go to [sass-lang.com](http://sass-lang.com) to learn all about how it works.
+
+<h3 class="post--sub--heading">SASS</h3>
+
+Gone are the days when vanilla css was written, then came something called as css preprocessing. Here we are! Css preprocessing helps in writing managable and clean CSS. Compiling isn't also a pain. It makes our css "Don't repeat yourself", saves time, easy to setup, makes websites prettier, code become organized. We can extend classes and many frameworks make it more beautiful. Mostly, you'll find that the three most popular CSS preprocessors, Sass, LESS, and Stylus are more or less the same. In short its a must have love for Front-End Developer. 
+
+<h3 class="post--sub--heading">npm</h3>
+
+__npm__ is a package manager for almost everything, atleast for Front-End developer. npm makes it easy for JavaScript developers to share and reuse code, and it makes it easy to update the code that you're sharing.
+
+<h3 class="post--sub--heading">Grunt</h3>
+
+Grunt is the automation, It is a big help for projects. Linting the code, minification, compiling is done frequently. Using Grunt saves our time, it runs all the tasks for us thus saves times. There are hundreds of plugins available and almost anything we can automate using Grunt that too with minimum efforts. Grunt and Grunt plugins are installed and managed via npm.
+
+<h3 class="post--sub--heading">Browser Stack</h3>
+
+Its not possible to have every machine and every device available for testing (It is recomended) but Alas! not possible for everyone. Here Browser Stack comes for help. It helps in testing our websites for cross browser compatibility on real browsers. The best part is we can test both protected or public servers.
+
+
+There are many many Javascript Libraries and Frameworks that qualify for the list of Front-End Developers like backbone, angularJS, meteor, KnockoutJS, ember etc.
