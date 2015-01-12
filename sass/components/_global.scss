@@ -292,6 +292,12 @@ img {
     width: 100%;
     text-align: center;
   }
+  .post-header {
+    h1 {
+      color: $white;
+      margin-bottom: 0;
+    }
+  }
 }
 
 .post-page-content {
@@ -307,7 +313,6 @@ img {
 .post-header { margin: 10px 0 30px; }
 
 .post-header h1 {
-  color: #fff;
   font-size: 42px;
   letter-spacing: -1.75px;
   line-height: 1.3;
