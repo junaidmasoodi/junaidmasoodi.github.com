@@ -232,6 +232,26 @@ img {
 .home, .post { padding: 0 6em; }
 .home h1 { margin-bottom: 25px; }
 
+.author {
+  position: absolute;
+  left: 43%;
+  top: 50%;
+  img {
+    border-radius: 50%;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  p {
+    color: #848484;
+    display: inline;
+    padding-left: 1em;
+    margin-left: 1em;
+    border-left: 1px solid #797979;
+    text-transform: lowercase;
+  }
+}
+
 .posts {
   list-style-type: none;
 }
