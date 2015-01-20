@@ -8,7 +8,7 @@ I am a Kashmir-native designer, Front-End Developer and a Speaker. Currently wor
 
 Currently, I am also a Chapter lead at [C-Sharp corner](http://www.c-sharpcorner.com/), You can [Join](http://www.c-sharpcorner.com/Chapters/18/kashmir-chapter.aspx) and be member of Kashmir chapter.
 
-I have a dream of " Quality Free Education" everywhere, I am trying to do by organising Free Events on technology and helping in begining the professional carrer of students. If you have any question or want to help me, You are very much welcomed. Just mail me at iam[at]junaidmasoodi[dot]com
+I have a dream of " Quality Free Education" everywhere, I am trying to do by organising Free Events on technology and helping in begining the professional carrer of students. If you have any question or want to help me, You are very much welcomed. Just mail me at iam [at] junaidmasoodi [dot] com or message via [contact](/contact) form
 
 I am also one of the Founding member of [Open Source Srinagar](http://www.opensourcesrinagar.org) community
 
