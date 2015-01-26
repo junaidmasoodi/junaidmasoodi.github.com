@@ -13,8 +13,10 @@ While writing this post Drupal 8 is in 4th Beta release and is improved with eac
 * Twig and HTML5 standard markup,
 * Better user experience,
 * Symphony2 is part of core,
+* Inline editing,
 * Mobile friendly,
 * RESTful web services,
+* Creating multi-lingual sites become more easier, 
 * Migration API,
 * Configuration management and what not.
 
