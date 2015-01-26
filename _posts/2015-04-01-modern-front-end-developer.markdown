@@ -2,7 +2,7 @@
 layout: post
 title:  "Modern Tools for Front-End Developers"
 date:   2015-01-09 09:37:54
-categories: Front-End, Tools
+categories: Front-End
 ---
 
 Gone are the days when Front-End development was just editing files, test them locally and then FTPing them to server and this was an essential workflow of a Front-End Developer. Something has changed in couple of years, may be Front-End development is taken seriously and yeah how can I forget to mention the role of browser vendors mostly getting their shit together. And last but important, The Front-End Devs themselves.
