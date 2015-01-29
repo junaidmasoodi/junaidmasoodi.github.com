@@ -257,11 +257,11 @@ img {
     vertical-align: middle;
   }
   p {
-    color: #848484;
+    color: $white;
     display: inline;
     padding-left: 1em;
     margin-left: 1em;
-    border-left: 1px solid #797979;
+    border-left: 1px solid #fff;
     text-transform: lowercase;
   }
 }
@@ -343,8 +343,9 @@ img {
 }
 
 #background-pic {
-  min-height: 600px;
+  min-height: 100%;
   background-color: #000;
+  background: url(../images/bg.png);
   position: relative;
   .post-header {
     position: absolute;
