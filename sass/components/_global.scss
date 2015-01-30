@@ -345,7 +345,8 @@ img {
 #background-pic {
   min-height: 100%;
   background-color: #000;
-  background: url(../images/bg.png);
+  background: url(../images/bg.jpg);
+  background-size: cover;
   position: relative;
   .post-header {
     position: absolute;
