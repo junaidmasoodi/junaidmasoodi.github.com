@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Logo"
+date:   2015-02-05 11:09:54
+categories: Design
+---
+
+
+<p style="text-align: center;">
+Was thinking of creating Logo for my site since long. Here is the first iteration.</p>
+<p style="font-family: initial; font-size: 2em;font-weight: bold;text-align: center; font-style: italic">Combination of braces and eye. Which means "what we see is code between braces"</p>
+<p style="text-align: center;">
+Feel free to give your suggestions :) Will love to take advices and suggestions.
+</p>
+
+
+![logo](/images/logo.png "Logo")
