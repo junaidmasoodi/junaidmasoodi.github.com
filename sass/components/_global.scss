@@ -104,6 +104,30 @@ img {
   .wrap {
     margin-left: 1em;
   }
+  .page-link  {
+    overflow: hidden;
+  }
+  .page-link span{
+    position: relative;
+    display: inline-block;
+    -webkit-transition: -webkit-transform 0.3s;
+    -moz-transition: -moz-transform 0.3s;
+    transition: transform 0.3s;
+    &::before {
+      position: absolute;
+      top: 100%;
+      content: attr(data-hover);
+      font-weight: 700;
+      -webkit-transform: translate3d(0,0,0);
+      -moz-transform: translate3d(0,0,0);
+      transform: translate3d(0,0,0);
+    }
+    &:hover, &:focus {
+      -webkit-transform: translateY(-100%);
+      -moz-transform: translateY(-100%);
+      transform: translateY(-100%);
+    }
+  }
 }
 
 .page-content {
