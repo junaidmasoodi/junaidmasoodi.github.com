@@ -133,4 +133,4 @@ permalink: /talks/
 </div>
 
 
-<div class="hire"><a href="/contact">Available for speaking till October '14</a></div>
+<div class="hire"><a href="/contact">Available for speaking from March 2015.</a></div>

@@ -42,6 +42,19 @@
 
 /*STYLES*/
 
+.junaid-background:hover {
+  webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition-duration: .15s;
+  -moz-transition-duration: .15s;
+  -ms-transition-property: .15s;
+  -o-transition-duration: .15s;
+  transition-duration: .15s;
+}
+
 html, body {
   height: 100%;
   font-family: $primary;
@@ -90,6 +103,30 @@ img {
 
   .wrap {
     margin-left: 1em;
+  }
+  .page-link  {
+    overflow: hidden;
+  }
+  .page-link span{
+    position: relative;
+    display: inline-block;
+    -webkit-transition: -webkit-transform 0.3s;
+    -moz-transition: -moz-transform 0.3s;
+    transition: transform 0.3s;
+    &::before {
+      position: absolute;
+      top: 100%;
+      content: attr(data-hover);
+      font-weight: 700;
+      -webkit-transform: translate3d(0,0,0);
+      -moz-transform: translate3d(0,0,0);
+      transform: translate3d(0,0,0);
+    }
+    &:hover, &:focus {
+      -webkit-transform: translateY(-100%);
+      -moz-transform: translateY(-100%);
+      transform: translateY(-100%);
+    }
   }
 }
 
@@ -232,6 +269,27 @@ img {
 .home, .post { padding: 0 6em; }
 .home h1 { margin-bottom: 25px; }
 
+.author {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  img {
+    border-radius: 50%;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  p {
+    color: $white;
+    display: inline;
+    padding-left: 1em;
+    margin-left: 1em;
+    border-left: 1px solid #fff;
+    text-transform: lowercase;
+  }
+}
+
 .posts {
   list-style-type: none;
 }
@@ -303,14 +361,16 @@ img {
 }
 
 .fade-in {
-  -webkit-animation-delay: 0.7s;
-  -moz-animation-delay: 0.7s;
-  animation-delay: 0.7s;
+  -webkit-animation-delay: 0.9s;
+  -moz-animation-delay: 0.9s;
+  animation-delay: 0.9s;
 }
 
 #background-pic {
-  min-height: 600px;
+  min-height: 100%;
   background-color: #000;
+  background: url(../images/bg.jpg);
+  background-size: cover;
   position: relative;
   .post-header {
     position: absolute;
@@ -348,7 +408,7 @@ img {
 .post-header .meta {
   font-size: 15px;
   font-weight: bold;
-  color: #818181;
+  color: #000;
   margin-top: 5px;
   text-align: center;
 }
@@ -633,6 +693,12 @@ coming {
       cursor: pointer;
       background: rgb(49, 175, 235);
     }
+  }
+}
+/* BLOGS FIX */
+.logo {
+  svg {
+    max-width: 440px;
   }
 }
 

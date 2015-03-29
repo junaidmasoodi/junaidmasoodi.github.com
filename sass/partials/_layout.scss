@@ -42,7 +42,7 @@
     width: 100%;
     @extend .f-20;
     -webkit-font-smoothing: antialiased;
-    span {
+    .notification {
       color: #fff;
       font-size: 11px;
       background: red;
