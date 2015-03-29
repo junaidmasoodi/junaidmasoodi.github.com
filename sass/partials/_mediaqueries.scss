@@ -112,3 +112,10 @@
     margin: 0 0 15px; }
 
 }
+
+@media screen and (max-width: 500px) {
+  .blog-nav {
+    width: 500px;
+    overflow-y: scroll;
+  }
+}
