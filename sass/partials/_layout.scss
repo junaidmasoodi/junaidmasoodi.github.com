@@ -42,16 +42,5 @@
     width: 100%;
     @extend .f-20;
     -webkit-font-smoothing: antialiased;
-    .notification {
-      color: #fff;
-      font-size: 11px;
-      background: red;
-      padding: 2px 10px;
-      border-radius: 10px;
-      line-height: 1;
-      font-weight: 900;
-      margin-left: 1em;
-      vertical-align: middle;
-    }
   }
 }
