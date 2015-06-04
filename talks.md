@@ -6,14 +6,12 @@ permalink: /talks/
 
 <div class="talks">
 <div class="timed">04 June, 2015</div>
-<coming>Happening on Thursday</coming>
 <h6>Green Valley Educational Society</h6>
 <h4>Web Development</h4>
 </div>
 
 <div class="talks">
 <div class="timed">03 June, 2015</div>
-<coming>Happening on wednesday</coming>
 <h6>University of Kashmir - North Campus </h6>
 <h4>Front-End - The Drupal way</h4>
 </div>
