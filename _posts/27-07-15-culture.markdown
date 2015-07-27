@@ -32,3 +32,5 @@ A culture is purely delivering the highest possible stake holder experience but 
 The culture isn’t about perks and we redeem them it isn’t also aboutesoteric and self-referential vocabulary like our conference halls, meeting rooms are branded internally, our positions are tagged differently, our everyday activities are labelled differently. It doesn’t make us unique, it makes us just a different tribe of same race.
 
 While driving our wagon towards perfection and talking about culture we may be going poles apart and end up just another company. Culture is surely not perks its about what makes employees happy and not giving them chance to think of moving or if they move, they should regret about it.
+
+<script async src="https://static.medium.com/embed.js"></script><a class="m-story" data-collapsed="true" href="https://medium.com/@junaidmasudi/corporate-culture-and-towards-imperfection-ee9480eb63cb">Corporate culture</a>
