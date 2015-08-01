@@ -6,7 +6,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #d42929;
+    background-color: #fff;
     z-index: 99;
 }
 
@@ -447,7 +447,7 @@ img {
   }
 
   li {
-    margin-bottom: 2em;
+    border-bottom: 1px dashed #E4E4E4;
   }
 }
 
@@ -505,7 +505,7 @@ img {
 }
 
 .post-content ul,
-.post-content ol { padding-left: 20px; }
+.post-content ol { list-style: none; }
 
 .post pre,
 .post code {

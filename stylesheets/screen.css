@@ -4815,7 +4815,7 @@ h1, h2, h3, h4, h5, h6, hgroup, ul, ol, dl, li, blockquote, p, address, table, f
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #d42929;
+  background-color: #fff;
   z-index: 99;
 }
 
@@ -5338,7 +5338,7 @@ ul.posts p {
 }
 /* line 449, ../sass/components/_global.scss */
 .blog li {
-  margin-bottom: 2em;
+  border-bottom: 1px dashed #E4E4E4;
 }
 
 /* line 454, ../sass/components/_global.scss */
@@ -5401,7 +5401,7 @@ ul.posts p {
 /* line 507, ../sass/components/_global.scss */
 .post-content ul,
 .post-content ol {
-  padding-left: 20px;
+  list-style: none;
 }
 
 /* line 510, ../sass/components/_global.scss */
