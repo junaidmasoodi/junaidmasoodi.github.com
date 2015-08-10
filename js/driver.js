@@ -187,7 +187,7 @@
     function addLink() {
     //Get the selected text and append the extra info
     var selection = window.getSelection(),
-        pagelink = '<br /><br /> Read more at: ' + document.location.href,
+        pagelink = '<br /><br /> This content is part of Article on:  ' + document.location.href,
         copytext = selection + pagelink,
         newdiv = document.createElement('div');
 
