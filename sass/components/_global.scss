@@ -99,11 +99,12 @@ img {
 .site-header {
     width: 250px;
     height: 100%;
-    background: #1d1f21;
+    background: $branding;
     color: $white;
     float: left;
     margin-right: 4em;
     position: fixed;
+    z-index: 1;
     .wrap {
         margin-left: 1em;
     }
@@ -160,10 +161,10 @@ img {
         text-align: center;
         border-radius: 50%;
         background: $white;
-        color: #1d1f21;
+        color: $branding;
         @extend .f-16;
         &:hover {
-            color: #FF0000;
+            color: #07E0E4;
         }
     }
     p {
@@ -311,6 +312,7 @@ img {
 
 .post, .posts {
     a {
+        color: $branding;
         display: inline-block;
         vertical-align: middle;
         -webkit-transform: translateZ(0);
@@ -331,7 +333,7 @@ img {
             left: 0;
             right: 100%;
             bottom: 0;
-            background: #000;
+            background: $branding;
             height: 2px;
             -webkit-transition-property: right;
             transition-property: right;
@@ -1135,4 +1137,10 @@ coming {
     background-size: cover;
     background-position: center center;
     z-index: 1;
+}
+
+/* SELECTION */
+::selection {
+    background: $branding;
+    color: $white;
 }
