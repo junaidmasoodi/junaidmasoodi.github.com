@@ -644,8 +644,8 @@ ul.posts {
     }
 }
 
-.post-content ul,
-.post-content ol {
+.post-content .blog ul,
+.post-content .blog ol {
     list-style: none;
 }
 
@@ -1126,6 +1126,9 @@ coming {
 .post-page-content {
     .post {
         padding: 0;
+    }
+    ul {
+        padding-left: 2em;
     }
 }
 

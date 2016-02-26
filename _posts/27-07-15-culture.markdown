@@ -5,17 +5,18 @@ date:   2015-07-27 03:25:54
 categories: General
 ---
 
-We always tend to have “ideal corporate” culture but sometimes we land in close culture other times a very polar to what we want. This has direct impact on productivity, resources that reach to us (branched format), communication barriers and at last rivalries and <b>standard definitions</b>  arise.
+We always tend to have “ideal corporate” culture but sometimes we land in close culture other times a very polar to what we want. This has direct impact on productivity, resources that reach to us (broken, branched), communication barriers, rivalries and <b>standard definitions</b>  arise.
 
 > I imagine a world where everyone has an opportunity to love their work and do their best work using their unique strengths every day.
 
-Sadly, mostly modern workplaces with their rigid policies, procedures, measures, position descriptions and obsessive overwork cultures are doing little to encourage individuals to embrace their uniqueness and quirky ways.
+Sadly, mostly "modern workplaces" with their rigid policies, procedures, measures, position descriptions and obsessive overwork cultures are doing little to encourage individuals to embrace their uniqueness and quirky ways.
 
 In my experience the most important people in any organisation aren’t the executives at the top but the team leaders and middle managers as they are the catalyst for every success or failure a company has. Everything from communication, innovation, and change to productivity and growth, flows through the team leader or line manager.
 
-Most people switch not because of companies aren’t productive but because of managers who try to idealise the company in their own ways. They think they are best decision makers and make it a law for everyone to follow. This turns to be the dictatorship.
+Most people switch not because of companies aren’t worth or payscale but because of managers who try to idealise the company in their own ways. They think they are best decision makers and make it a law for everyone to follow. This turns to be the dictatorship.
 
-According to Chuck Longanecker — founder of <b>Digital Telepathy and Filament.io</b> in his article writes about 5 Signs Your Company Culture May Actually Suck
+
+According to Chuck Longanecker — founder of <b>Digital Telepathy and Filament.io</b> in his articwrites about 5 Signs when Company Culture may actually Suck
 
 + Your culture relies on perks.
 + Your company has a generic mission statement.

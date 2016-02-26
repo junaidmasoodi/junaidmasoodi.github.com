@@ -5508,8 +5508,8 @@ ul.posts p {
 }
 
 /* line 647, ../sass/components/_global.scss */
-.post-content ul,
-.post-content ol {
+.post-content .blog ul,
+.post-content .blog ol {
   list-style: none;
 }
 
@@ -6064,9 +6064,13 @@ coming {
 .post-page-content .post {
   padding: 0;
 }
+/* line 1130, ../sass/components/_global.scss */
+.post-page-content ul {
+  padding-left: 2em;
+}
 
 /* Header */
-/* line 1133, ../sass/components/_global.scss */
+/* line 1136, ../sass/components/_global.scss */
 .large-header {
   position: relative;
   width: 100%;
@@ -6078,7 +6082,7 @@ coming {
 }
 
 /* SELECTION */
-/* line 1144, ../sass/components/_global.scss */
+/* line 1147, ../sass/components/_global.scss */
 ::selection {
   background: #1d1f21;
   color: #ffffff;

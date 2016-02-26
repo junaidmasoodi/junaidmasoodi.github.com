@@ -5,7 +5,9 @@ date:   2015-10-26 11:09:54
 categories: General
 ---
 
-Communicating less doesn't mean you are A-Social, it simply means that you are reserved. Which is good most of time times. There are people out talking about "communication", "communication" and "communication" but is this an achievement? NO. Most of the time they dont make any sense while talking but that has been labelled as communication and you can't do anything about it.
+Communicating less doesn't mean you are __A-Social__, it simply means that you are reserved. Which is good most of time times. There are people out talking about "communication", "communication" and "communication" but is this an achievement? NO. Most of the time they dont make any sense while talking but that has been labelled as communication and you can't do anything about it.
+
+Actually we are doing by being Introvert.
 
 > To be successfull in life, You need to communicate - Slogan by talkative's - Please dont miss match them with extroverts.
 
