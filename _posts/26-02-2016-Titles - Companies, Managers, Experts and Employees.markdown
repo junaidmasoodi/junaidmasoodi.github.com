@@ -33,7 +33,7 @@ In the process of achieving these titles, employees forget their core values whi
 
 In a nutshell, when people are after titles we have a culture where good and resourceful employees leave and what we are left with is politicians only. And it is better to create a good culture with minimum titles and if titles exist there should be a fine line drawn between two.
 
-> be real titles will follow.
+> be real, titles will follow.
 
 Special mention to <a href="http://nidashah.com">Nida Ismail Shah</a> for inputs.
 
