@@ -281,27 +281,6 @@ img {
     margin-bottom: 25px;
 }
 
-.author {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    top: 50%;
-    img {
-        border-radius: 50%;
-        height: 30px;
-        display: inline-block;
-        vertical-align: middle;
-    }
-    p {
-        color: $white;
-        display: inline;
-        padding-left: 1em;
-        margin-left: 1em;
-        border-left: 1px solid #fff;
-        text-transform: lowercase;
-    }
-}
-
 .posts {
     list-style-type: none;
 }
@@ -510,7 +489,6 @@ ul.posts {
 }
 
 #large-header {
-    background-image: url("/images/bg.jpg");
     min-height: 100%;
     .main-title {
         position: absolute;
