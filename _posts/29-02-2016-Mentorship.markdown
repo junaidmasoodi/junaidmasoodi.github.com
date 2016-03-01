@@ -3,6 +3,7 @@ layout: post
 title:  "Mentorship for Mentors — The presence and lack of it"
 date:   2016-02-29 02:30:00
 categories: Mentorship
+permalink: blog/mentorship
 ---
 
 Before publishing this post, I am collecting some data. And here I will need some of your help.
