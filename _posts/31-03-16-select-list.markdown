@@ -3,7 +3,7 @@ layout: post
 title:  "Select List Theming in Drupal 8"
 date:   2016-03-31 11:09:54
 categories: Drupal
-permalink: blog/selectlistanddrupal8
+permalink: blog/selectlist-and-d8
 ---
 
 Theming of form items and then performance issues is one of the hard jobs. I am not mentioning IE here because Dear internet Explorer has crosses all limits of giving pain. Now the happy news is that IE is dead and I am sure it will be burning in the deepest hole of hell. The pain, the time waste that IE has done in past years will not be fixed by Microsoft ever. Even if they sell their shares and pay all money to Front-End Developers. 
