@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f95d0244-c972-4361-8c44-ece304314fb0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/30-02-15-CKE.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-05-14-github-pages.markdown" afterPath="$PROJECT_DIR$/_posts/2014-05-14-github-pages.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/30-02-15-CKE.markdown" afterPath="$PROJECT_DIR$/_posts/30-02-15-CKE.markdown" />
     </list>
     <ignored path="junaidmasoodi.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,8 +44,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/30-02-15-CKE.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.8831169">
-                <caret line="50" column="80" selection-start-line="50" selection-start-column="80" selection-end-line="50" selection-end-column="80" />
+              <first_editor vertical-scroll-proportion="0.66883117">
+                <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -353,8 +351,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/30-02-15-CKE.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.8831169">
-            <caret line="50" column="80" selection-start-line="50" selection-start-column="80" selection-end-line="50" selection-end-column="80" />
+          <first_editor vertical-scroll-proportion="0.66883117">
+            <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
             <folding />
           </first_editor>
           <second_editor />

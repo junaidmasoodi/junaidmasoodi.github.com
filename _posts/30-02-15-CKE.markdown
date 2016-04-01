@@ -38,7 +38,7 @@ and there we will click configure WYSIWYG and we have variety of toolbars availa
 
 Now on <b>node/edit</b> you will see styles with drop-down with your configured styles. If you just want the styles for newly configured spans to show in Default Theme then you just need to add some styles for span.heading and span.subheading classes and they will render as you want them to render. As shown in figure below.
 
-![Rendered CKE Editor styles dropdown](/images/cke/CKE-dropdown.png "Rendered CKE Editor styles dropdown")
+![Rendered CKE Editor styles dropdown](/images/cke/cke-dropdown.png "Rendered CKE Editor styles dropdown")
 
 Now the main point is that if Editor wants to see changes in this <iframe> only and then in default theme as well. We assume that admin themes and default themes are different which is a most widely used general case.
 
