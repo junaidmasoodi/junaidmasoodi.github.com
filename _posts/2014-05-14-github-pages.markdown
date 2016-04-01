@@ -15,7 +15,7 @@ First of all we need to know about two types of github pages called as
 
 **userpages** come in handy if you want to host your personal website or the index of any project. You may note that there is only one userpage per account. The URL for userpage is <mark>http://title.github.io/ </mark>
 
-**roject pages** are used when you want to host a project, of which you have many. We can have multiple project pages per Github account. The URL for project pages are <mark>http://title.github.io/projectpage/</mark>
+**Project pages** are used when you want to host a project, of which you have many. We can have multiple project pages per Github account. The URL for project pages are <mark>http://title.github.io/projectpage/</mark>
 
 ###Create First Repository###
 First lets go on this page [https://github.com/new](https://github.com/new) after we sign up on github

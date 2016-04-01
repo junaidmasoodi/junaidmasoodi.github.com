@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "CKEditor customizations in D8"
+date:   2016-03-30 11:09:54
+categories: Drupal
+permalink: blog/ckeand8
+---
+
+CKEditor is a ready-for-use HTML text editor designed to simplify web content creation. It's a <b>WYSIWYG</b> editor that brings common word processor features directly to your web pages. Enhance your website experience with our community maintained editor.
+
+It is an Open Source project. More info about CKEditor can be availed from their [website](http://ckeditor.com). As per CKEditor community there are six main features that make CKE best among all projects available in this line. They are
+
+* Repository & Builder
+* Customizability
+* Full featured
+* Accessibility
+* Performance
+* Compatibility
+
+CKE has everything you need but sometimes we have client requirements where we have to make customizations upon their requests. One of the common request by editors in customize their write up as per their needs or it should go in line with the web design. For example h1 may have different values in one site and in another site it might have different vales. similarly with 'headings', 'subHeadings' etc.
+We can simply write some css for these generated spans in our theme (I am talking of Drupal Particularly), But what if the Editor wants these changes to happen in CKE iframe while editing. Its very simple in Drupal 8.
+
+We have to follow three steps.
+ 
+* Declare values in CKE settings
+* Make css file
+* Declare same in info file
+
+Lets assume we are making Heading and Sub-heading as customizable. In Drupal 8 CKEditor is in core now, so you don't need to install it as a module like we did in Drupal 7.
+
+Firstly we will go to admin > Configuration > Text Formats and Editors and the url should be something like this /admin/config/content/formats
+![To spot where to click. It is marked with red](/images/cke/CKE-junaidmasoodi.com.png "Admin Tools bar showing where to click initially")
+
+
+and there we will click configure WYSIWYG and we have variety of toolbars available with just drag and drop functionality. We have picked <b>Styles</b> and dropped it in Active toolbar from Available buttons. On dropping this it will open CKEditor plugin Settings where we will define out new styles. In our case they will be Heading and sub-heading. Click save and there you go.
+
+![To spot where to click. It is marked with red](/images/cke/CKE-junaidmasoodi.com-drop.png "CKEditor toolbar changes")
+
+Now on <b>node/edit</b> you will see styles with drop-down with your configured styles. If you just want the styles for newly configured spans to show in Default Theme then you just need to add some styles for span.heading and span.subheading classes and they will render as you want them to render. As shown in figure below.
+
+![Rendered CKE Editor styles dropdown](/images/cke/CKE-dropdown.png "Rendered CKE Editor styles dropdown")
+
+Now the main point is that if Editor wants to see changes in this <iframe> only and then in default theme as well. We assume that admin themes and default themes are different which is a most widely used general case.
+
+For that we have to declare something in theme.info.yml
+{% highlight ruby %}
+ckeditor_stylesheets:
+  - sass/ckeditor-iframe.css
+{% endhighlight %}
+
+and then add styles to these classes and it should render on CKE iframe as well. 
