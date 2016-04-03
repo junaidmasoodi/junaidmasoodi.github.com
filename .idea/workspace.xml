@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f95d0244-c972-4361-8c44-ece304314fb0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-01-23-Getting-started-wth-drupal-8.markdown" afterPath="$PROJECT_DIR$/_posts/2015-01-23-Getting-started-wth-drupal-8.markdown" />
-    </list>
+    <list default="true" id="f95d0244-c972-4361-8c44-ece304314fb0" name="Default" comment="" />
     <ignored path="junaidmasoodi.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
