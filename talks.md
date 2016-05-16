@@ -5,6 +5,13 @@ permalink: /talks/
 ---
 
 <div class="talks">
+<div class="timed">19 - 20th April, 2016</div>
+<h6>SSM College of Engineering</h6>
+<h4><b>Mozilla Developer Conference</b></h4>
+<h4>Open Source and the path</h4>
+</div>
+
+<div class="talks">
 <div class="timed">04 June, 2015</div>
 <h6>Green Valley Educational Society</h6>
 <h4>Web Development</h4>
