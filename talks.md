@@ -3,6 +3,13 @@ layout: page
 title: Talks
 permalink: /talks/
 ---
+<div class="talks">
+<div class="timed">08 May, 2016</div>
+<h6>Philippines</h6>
+<h4><b>Drupal Camp 2016 Manilla, Philippines</b></h4>
+<h4>Design Principles for Minimum Viable Product</h4>
+<a href="http://2016.drupalcampmanila.com">Agenda</a>
+</div>
 
 <div class="talks">
 <div class="timed">19 - 20th April, 2016</div>
