@@ -3,6 +3,14 @@ layout: page
 title: Talks
 permalink: /talks/
 ---
+<div class="talks"> <coming>Coming up</coming>
+<div class="timed">28 Sept, 2016</div>
+<h6>Dublin, Ireland</h6>
+<h4><b>DrupalCon Europe</b></h4>
+<h4>Usability Principles</h4>
+<a href="https://events.drupal.org/dublin2016/sessions/design-principles-minimum-viable-product">Agenda</a>
+</div>
+
 <div class="talks">
 <div class="timed">08 May, 2016</div>
 <h6>Philippines</h6>
