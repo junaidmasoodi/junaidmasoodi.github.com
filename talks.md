@@ -3,8 +3,8 @@ layout: page
 title: Talks
 permalink: /talks/
 ---
-<div class="talks"> <coming>Coming up</coming>
-<div class="timed">28 Sept, 2016</div>
+<div class="talks">
+<div class="timed">28 Sept, 2016</div><coming>Coming up</coming>
 <h6>Dublin, Ireland</h6>
 <h4><b>DrupalCon Europe</b></h4>
 <h4>Usability Principles</h4>
