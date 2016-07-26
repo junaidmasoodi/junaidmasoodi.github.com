@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/junaidmasoodi
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://junaidmasoodi.com
+  * I am junaidmasoodi (https://keybase.io/junaidmasoodi) on keybase.
+  * I have a public key with fingerprint B3DD 1203 EDF5 D441 4C0E  D76B 2AFF 960D 2CEE DB5E
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120f0864472c6c5736cefa3d2699b2d8092e755811c5373fb18cffb82f0327a13dd0a",
+            "fingerprint": "b3dd1203edf5d4414c0ed76b2aff960d2ceedb5e",
+            "host": "keybase.io",
+            "key_id": "2aff960d2ceedb5e",
+            "kid": "010142930acbf36cfea0f6c5eb0f8dd7b28665655c7d50fa9c1b54b4ecdf21174f560a",
+            "uid": "b647cf2bf2f50122c20611b82b823119",
+            "username": "junaidmasoodi"
+        },
+        "service": {
+            "hostname": "junaidmasoodi.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1469560883,
+    "expire_in": 157680000,
+    "prev": "903cadd78bf2ba29fd6b44f0630b72eed036261436b27a7ecccce13e85cf8298",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMNwAnicbZJ9UFRVGMYXXK0oPkxoc2g0LhOTwDD3+95dZohtUAs0oVTAoO1+nLNc
+YO9d9i6gQxSY5EdoJQmMiWJ/OBFBw4QUFgOEVIYzayGUEBBISkDIBGjhIJ1l8j/P
+3Jkz55zn/d3nfc656L/K4OcTuVzpHz0z+JpPT+fZfENq1Vd0ESZq8j7MUoTlgJUJ
+5MpAd9tyFBmzYDhB4hDnWZrmSImVGI5iJQAFSiZZs1kkZR43k4BjGJ4gJIbiKCgS
+vAShyJMQp0hOIChZxgUsGoOKagcup0tR3Qgrom1EpoAMGZmmCVrCgcyxIilAaGZx
+mZQAkEUGoMIsTfdWIHOioIMYRUN7aGFbsfcA/X3fOEGTZgoXJBEizxAIOET+gYhD
+XpY5keRZlmEZRuJkBoeCWSJEhhZpIMmQJAiOhgy74jt/BSeyNCdBUoQkZFAkpETi
+LEGgLtFHEYTZK9SBSxUcAKmz81VBkR2CrmmyghVHY+ioQJGAN11vOw+SxUiaA1Gc
+Ls2tSVouOs5yu50Wb7V7n9MrLwSi7X+QTVRUGQWKCgqAS1c0FbMQSCm5FS+ZoFkz
+ss/zVDQG9joVF7ApXgXDsTyOhvc3oAAhzTglCSgNHjUmCqQZyqxI0xBnKVzkSBQp
+TrEkS9AUuhlO4ICEBiAowDMS5Ekzj3lby1M1xEZQt2BHTF2xq4I73wWw4m87M4wG
+Hz/DmtW+3pdm8Hsk6P776z0RuJx49eiode54fcWP1kvxFZVDb46aqIwk3GYfqPmz
+Ma3XPnDiWs6CWmxZ3zt/+O4MsSm5L9iRlf7Fhwm7Ht6+/+mMvqatRVd6TFrD+tLS
+UWLpfPNS+hMhe9e+x2/9wP5vXLW82fpqVEv+2GzM50OgL+JIpmcobriidnu272Do
+Z12BhNadNNr+feanAXWV1xxTRzwvdoUaIihpk/DJwvHa07+XcDtPnwwajKsZ2Z08
+kNAiDUbV/6Nn+1jLjZMH7t1cU+VpjdqamN7Z/MKB+ZRb5TDouYDG5aH+p7IPjnsm
+4zaceajz+bTZ1AC1E7e9HbKh9EzswERTakd8TdmdmgDr5r4dspowfGht2/n4q9N/
+pTz+ek7KFVkTz5lC3v2uLbBELw+7e2Pko+oF0+FwXd/T0TC7Oiylrt9a29sVW4EH
+m0KrbzvemUo+xujj7zeGmU4GL26MKL4RUzcRXHnPMzi1zvLseHNp5A+/fll/KPGX
+b7pr84422HxvqU5u1znj4vTXhW9NJ4/YrCNlxwo+Hpse/rt9z0TV4mNPnhpZasoo
+US9Gpsfmjs31/OZ5ZXzbHztawc/rll6682h4oVAPHTWN82db8pKrFy41lP+UZhYn
+b1c90228bLt+fVXbxm0RS2VJLjC3m5ppuVDXn5kZ5xPe6l8XvpD4xk3jhYPGU/zL
+Wzp2ZrZfjt1Suz9luOw/hMrTNg==
+=y5DA
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/junaidmasoodi
+
+==================================================================
