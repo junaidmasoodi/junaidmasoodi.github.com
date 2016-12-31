@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="keywords" content="Junaid, Junaid Masoodi, Front-End, Developer, Kashmir">
+    <link rel="icon" type="image/ico" href="/favicon.ico"/>
+    <meta property="og:title" content="Junaid Masoodi" />
+    <meta property="og:type" content="Front-End Developer" />
+    <meta property="og:image" content="http://junaidmasoodi.com/junaidmasoodi.jpg" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="{{ site.description }}">
+    <meta property="article:author" content="https://www.facebook.com/junaidmasoodi" />
+    <meta property="article:publisher" content="https://www.facebook.com/junaidmasoodi" />
+    <meta property="fb:admins" content="100000244131173" />
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+<link rel="stylesheet" href="/css/snow.css">
+<body>
+	<canvas id="snow" class="snow"></canvas>
+	{{ content }}
+</body>
+<script src="/js/snow.js"></script>
+</html>

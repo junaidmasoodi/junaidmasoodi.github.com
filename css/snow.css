@@ -1,0 +1,26 @@
+body,
+html {
+  background-color: #1C1E1F;
+  height: 100%;
+  width: 100%;
+}
+
+.snow {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.new-year {
+	font-family: 'Fredericka the Great', cursive;
+	text-align: center;
+	font-size: 150px;
+	color: #fff;
+}
+
+.quote {
+	font-family: 'Comfortaa', cursive;
+	text-align: center;
+    padding-top: 6em;
+    color: #fff;
+    font-size: 26px;
+}
