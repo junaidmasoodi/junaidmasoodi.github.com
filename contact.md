@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-permalink: /reach-out/
+permalink: /contact/
 ---
 
 <p>
