@@ -527,7 +527,7 @@ h1, h2, h3, h4, h5, h6, hgroup, ul, ol, dl, li, blockquote, p, address, table, f
 /* line 32, ../sass/partials/_layout.scss */
 .site-nav .page-link {
   margin: 0.5em 0;
-  color: #BDBDBD;
+  color: #ffffff;
   letter-spacing: -.5px;
   display: inline-block;
   width: 100%;
