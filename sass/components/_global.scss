@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-    color: #08827e;
+    color: $branding;
     text-decoration: none;
 }
 
@@ -920,29 +920,30 @@ ul.posts {
 
 // Contact
 .contact {
-    max-width: 500px;
-    margin: auto;
+    max-width: 700px;
+    padding-left: 10px;
+    margin-top: 1em;
     input, textarea {
         display: block;
-        padding: 0.5em 1em;
+        padding: 1em 1em;
         @extend .f-14;
         font-weight: 300;
         margin-bottom: 1em;
         width: 100%;
-        border: 1px solid #cecece;
-        border-bottom: 5px solid #cecece;
+        border: 1px solid $branding;
+        border-bottom: 5px solid $branding;
         text-transform: lowercase;
-        color: #20C1FF;
+        color: $branding;
     }
     textarea {
         min-height: 10em;
     }
     input[type="submit"] {
-        background: #20C1FF;
+        background: $branding;
         border: none;
         font-size: 19px;
         color: #fff;
-        border-bottom: 5px solid #1975B2;
+        border-bottom: 5px solid ;
         &:hover {
             border-bottom: 5px solid #005C99;
         }

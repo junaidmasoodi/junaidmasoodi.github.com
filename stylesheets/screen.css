@@ -5848,88 +5848,89 @@ ul.posts p {
 /* Literal.Number.Integer.Long */
 /* line 922, ../sass/components/_global.scss */
 .contact {
-  max-width: 500px;
-  margin: auto;
+  max-width: 700px;
+  padding-left: 10px;
+  margin-top: 1em;
 }
-/* line 925, ../sass/components/_global.scss */
+/* line 926, ../sass/components/_global.scss */
 .contact input, .contact textarea {
   display: block;
-  padding: 0.5em 1em;
+  padding: 1em 1em;
   font-weight: 300;
   margin-bottom: 1em;
   width: 100%;
-  border: 1px solid #cecece;
-  border-bottom: 5px solid #cecece;
+  border: 1px solid #08827e;
+  border-bottom: 5px solid #08827e;
   text-transform: lowercase;
-  color: #20C1FF;
+  color: #08827e;
 }
-/* line 937, ../sass/components/_global.scss */
+/* line 938, ../sass/components/_global.scss */
 .contact textarea {
   min-height: 10em;
 }
-/* line 940, ../sass/components/_global.scss */
+/* line 941, ../sass/components/_global.scss */
 .contact input[type="submit"] {
-  background: #20C1FF;
+  background: #08827e;
   border: none;
   font-size: 19px;
   color: #fff;
-  border-bottom: 5px solid #1975B2;
+  border-bottom: 5px solid;
 }
-/* line 946, ../sass/components/_global.scss */
+/* line 947, ../sass/components/_global.scss */
 .contact input[type="submit"]:hover {
   border-bottom: 5px solid #005C99;
 }
 
-/* line 953, ../sass/components/_global.scss */
+/* line 954, ../sass/components/_global.scss */
 .notes {
   font-weight: 300;
   font-size: 12px;
   color: #EB1818;
 }
-/* line 957, ../sass/components/_global.scss */
+/* line 958, ../sass/components/_global.scss */
 .notes span {
   font-weight: 600;
 }
 
-/* line 964, ../sass/components/_global.scss */
+/* line 965, ../sass/components/_global.scss */
 .rss-subscribe {
   text-align: center;
 }
-/* line 966, ../sass/components/_global.scss */
+/* line 967, ../sass/components/_global.scss */
 .rss-subscribe a {
   display: block;
 }
-/* line 969, ../sass/components/_global.scss */
+/* line 970, ../sass/components/_global.scss */
 .rss-subscribe .fa-rss {
   font-size: 2em;
 }
 
-/* line 976, ../sass/components/_global.scss */
+/* line 977, ../sass/components/_global.scss */
 .talks {
   border-left: 3px solid #00BFFC;
   padding-left: 1em;
   margin-bottom: 2.5em;
 }
-/* line 980, ../sass/components/_global.scss */
+/* line 981, ../sass/components/_global.scss */
 .talks h6 {
   font-weight: 600;
   color: #AAA;
   margin-top: 0;
 }
-/* line 986, ../sass/components/_global.scss */
+/* line 987, ../sass/components/_global.scss */
 .talks h4 {
   margin-top: 1em;
   letter-spacing: 0;
 }
 
-/* line 992, ../sass/components/_global.scss */
+/* line 993, ../sass/components/_global.scss */
 .timed {
   color: #AAA;
   margin-bottom: 0;
   display: inline-block;
 }
 
-/* line 999, ../sass/components/_global.scss */
+/* line 1000, ../sass/components/_global.scss */
 coming {
   color: #fff;
   font-size: 11px;
@@ -5941,16 +5942,16 @@ coming {
   vertical-align: middle;
 }
 
-/* line 1010, ../sass/components/_global.scss */
+/* line 1011, ../sass/components/_global.scss */
 .hire {
   text-align: center;
   margin-top: 3em;
 }
-/* line 1013, ../sass/components/_global.scss */
+/* line 1014, ../sass/components/_global.scss */
 .hire p {
   text-decoration: line-through;
 }
-/* line 1016, ../sass/components/_global.scss */
+/* line 1017, ../sass/components/_global.scss */
 .hire p, .hire a {
   background: #288fc0;
   display: inline-block;
@@ -5960,30 +5961,30 @@ coming {
   color: #fff;
   font-weight: 300;
 }
-/* line 1024, ../sass/components/_global.scss */
+/* line 1025, ../sass/components/_global.scss */
 .hire p:hover, .hire a:hover {
   cursor: pointer;
   background: #31afeb;
 }
 
 /* BLOGS FIX */
-/* line 1033, ../sass/components/_global.scss */
+/* line 1034, ../sass/components/_global.scss */
 .logo svg {
   max-width: 440px;
 }
 
 /* BLOGS FIX */
-/* line 1040, ../sass/components/_global.scss */
+/* line 1041, ../sass/components/_global.scss */
 .post-page-content .post {
   padding: 0;
 }
-/* line 1043, ../sass/components/_global.scss */
+/* line 1044, ../sass/components/_global.scss */
 .post-page-content ul {
   padding-left: 2em;
 }
 
 /* SELECTION */
-/* line 1050, ../sass/components/_global.scss */
+/* line 1051, ../sass/components/_global.scss */
 ::selection {
   background: #08827e;
   color: #ffffff;
@@ -6219,7 +6220,7 @@ coming {
   #toggle div {
     width: 100%;
     height: 5px;
-    background: #00BFFC;
+    background: #08827e;
     margin: 4px auto;
     transition: all 0.6s;
     background-visibility: hidden;

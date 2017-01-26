@@ -4,10 +4,6 @@ title: Contact
 permalink: /contact/
 ---
 
-<p>
-    
-</p>
-
 <div class="contact">
     <form action="http://getsimpleform.com/messages?form_api_token=889f5d1ed8fe6b2b9aff6b720fef7584" method="post">
     <!-- all your input fields here.... -->
