@@ -10,6 +10,7 @@ permalink: /contact/
     <input type='text' placeholder="Name" name='Name' required label="Name"/>
     <input type='email' placeholder="e-mail" name='email' required label="E-Mail"/>
     <textarea name="message" required placeholder="Whats the Message" ></textarea>
+    <div class="g-recaptcha" data-sitekey="6LcGphMUAAAAABjpDpbsOuua4jPTIS9R53Y-5IcO"></div>
     <input type='submit' value='submit' />
      <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
     <input type='hidden' name='redirect_to' value='http://junaidmasoodi.com/junaidmasoodi/thankyou.html' />
