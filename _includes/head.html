@@ -35,6 +35,17 @@
     <script src='https://www.google.com/recaptcha/api.js'></script>
 
     <script src="/js/prefixfree.min.js"></script>
+    <script type='text/javascript'>
+    var captchaContainer = null;
+    var loadCaptcha = function() {
+      captchaContainer = grecaptcha.render('captcha_container', {
+        'sitekey' : 'Your sitekey',
+        'callback' : function(response) {
+          console.log(response);
+        }
+      });
+    };
+    </script>
     
 
 </head>
