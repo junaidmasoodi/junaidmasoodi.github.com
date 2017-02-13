@@ -13,3 +13,5 @@ permalink: pretty
 # Gems
 gems:
    - jekyll-sitemap
+
+include: [.htaccess]
