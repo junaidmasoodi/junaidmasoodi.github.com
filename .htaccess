@@ -1,3 +1,4 @@
+Header set Content-Language "en-GB"
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>
 ExpiresActive On
