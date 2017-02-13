@@ -1,14 +1,11 @@
 Header set Content-Language "en-GB"
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>
-ExpiresActive On
-ExpiresByType image/jpg "access plus 1 year"
-ExpiresByType image/jpeg "access plus 1 year"
-ExpiresByType image/gif "access plus 1 year"
-ExpiresByType image/png "access plus 1 year"
-ExpiresByType text/css "access plus 1 month"
-ExpiresByType text/x-javascript "access plus 1 month"
-ExpiresByType application/x-shockwave-flash "access plus 1 month"
-ExpiresDefault "access plus 2 days"
+  ExpiresActive On
+  ExpiresDefault "access plus 1 year"
+  # Pages
+  ExpiresByType text/html  "access plus 15 minutes"
+  # RSS feed
+  ExpiresByType text/xml  "access plus 120 minutes"
 </IfModule>
 ## EXPIRES CACHING ##
