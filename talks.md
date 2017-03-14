@@ -3,11 +3,20 @@ layout: page
 title: Talks
 permalink: /talks/
 ---
+
+<div class="talks">
+<div class="timed">26 April, 2017</div><coming>Coming Up</coming>
+<h6>Baltimore, Maryland - United States</h6>
+<h4><b>DrupalCon Baltimore</b></h4>
+<h4>Content Strategy and relation to UX Design</h4>
+<a href="https://events.drupal.org/baltimore2017/sessions/content-strategy-and-relation-ux-design">Agenda</a>
+</div>
+
 <div class="talks">
 <div class="timed">28 Sept, 2016</div>
 <h6>Dublin, Ireland</h6>
 <h4><b>DrupalCon Europe</b></h4>
-<h4>Usability Principles</h4>
+<h4>Design Principles for Minimum Viable Product</h4>
 <a href="https://events.drupal.org/dublin2016/sessions/design-principles-minimum-viable-product">Agenda</a>
 </div>
 
@@ -15,7 +24,7 @@ permalink: /talks/
 <div class="timed">08 May, 2016</div>
 <h6>Philippines</h6>
 <h4><b>Drupal Camp 2016 Manilla, Philippines</b></h4>
-<h4>Design Principles for Minimum Viable Product</h4>
+<h4>Usability Principles</h4>
 <a href="http://2016.drupalcampmanila.com">Agenda</a>
 </div>
 

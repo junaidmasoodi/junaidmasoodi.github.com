@@ -1052,3 +1052,16 @@ coming {
     background: $branding;
     color: $white;
 }
+
+#fontlinks {
+    text-align: center;
+    background: #cec;
+    a {
+        font-size: 28px;
+        cursor: pointer;
+        margin: 0 10px;
+        &:before {
+            background: none;
+        }
+    }
+}

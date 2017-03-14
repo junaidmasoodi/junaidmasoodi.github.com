@@ -5,6 +5,10 @@ layout: posts
   
   <!-- Go to www.addthis.com/dashboard to customize your tools -->
     <div class="addthis_sharing_toolbox"></div>
+    <div id="fontlinks">
+    <a href="#" id="incfont" class="button buttonfont"><i class="fa fa-plus-square" aria-hidden="true"></i></a>
+    <a href="#" id="decfont" class="button buttonfont"><i class="fa fa-minus-square" aria-hidden="true"></i></a>
+    </div>
     
   <article class="post-content">
   {{ content }}
@@ -26,3 +30,18 @@ layout: posts
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
 </div>
+
+<script type="text/javascript">
+   $(document).ready(function() { 
+    $('#incfont').click(function(){    
+        curSize= parseInt($('article.post-content p').css('font-size')) + 2;
+    if(curSize<=30)
+        $('article.post-content p').css('font-size', curSize);
+        });  
+    $('#decfont').click(function(){    
+        curSize= parseInt($('article.post-content p').css('font-size')) - 2;
+    if(curSize>=12)
+        $('article.post-content p').css('font-size', curSize);
+        }); 
+  });
+</script>
