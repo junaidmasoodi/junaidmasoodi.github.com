@@ -5,7 +5,15 @@ permalink: /talks/
 ---
 
 <div class="talks">
-<div class="timed">26 April, 2017</div><coming>Coming Up</coming>
+<div class="timed">20 July, 2017</div><coming>Coming Up</coming>
+<h6>Islamabad, Pakistan - Venue to be announced</h6>
+<h4><b>DC Pakistan</b></h4>
+<h4>Content strategy is the language of Usability</h4>
+<a href="http://www.drupalcamps.pk/dcisb2017/session/content-strategy-language-usability">Agenda</a>
+</div>
+
+<div class="talks">
+<div class="timed">26 April, 2017</div>
 <h6>Baltimore, Maryland - United States</h6>
 <h4><b>DrupalCon Baltimore</b></h4>
 <h4>Content Strategy and relation to UX Design</h4>
