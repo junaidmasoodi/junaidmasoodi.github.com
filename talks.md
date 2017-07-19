@@ -5,8 +5,17 @@ permalink: /talks/
 ---
 
 <div class="talks">
+<div class="timed">31 July, 2017</div><coming>Coming Up</coming>
+<h6>DNational Institutes of Health Campus Natcher Conference Center • Bethesda, MD</h6>
+<h4><b>GovCon</b></h4>
+<h4>Around usability - Lightening talk</h4>
+<a href="#">No agenda</a>
+</div>
+
+<div class="talks">
 <div class="timed">20 July, 2017</div><coming>Coming Up</coming>
-<h6>Islamabad, Pakistan - Venue to be announced</h6>
+<h6>DatumSquare IT Services,
+STP -3, Block A, Ground Floor, Plot # 155, Service Road North, Sector I-9/3، Islamabad 44000, Pakistan</h6>
 <h4><b>DC Pakistan</b></h4>
 <h4>Content strategy is the language of Usability</h4>
 <a href="http://www.drupalcamps.pk/dcisb2017/session/content-strategy-language-usability">Agenda</a>
