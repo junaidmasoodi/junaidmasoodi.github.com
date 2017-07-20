@@ -6,7 +6,7 @@ permalink: /talks/
 
 <div class="talks">
 <div class="timed">31 July, 2017</div><coming>Coming Up</coming>
-<h6>National Institutes of Health Campus Natcher Conference Center • Bethesda, MD</h6>
+<h6>National Institutes of Health Campus Natcher Conference Center • Bethesda, MD - United States</h6>
 <h4><b>GovCon</b></h4>
 <h4>Around usability - Lightening talk</h4>
 <a href="#">No agenda</a>
