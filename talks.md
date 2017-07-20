@@ -13,7 +13,7 @@ permalink: /talks/
 </div>
 
 <div class="talks">
-<div class="timed">20 July, 2017</div><coming>Coming Up</coming>
+<div class="timed">20 July, 2017</div>
 <h6>DatumSquare IT Services,
 STP -3, Block A, Ground Floor, Plot # 155, Service Road North, Sector I-9/3، Islamabad 44000, Pakistan</h6>
 <h4><b>DC Pakistan</b></h4>
