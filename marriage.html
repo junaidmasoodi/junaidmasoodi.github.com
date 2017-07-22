@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+    img {
+        width: 100%;
+    }
+    
+    .marriage {
+        max-width: 400px;
+        margin: auto;
+        display: block;
+    }
+    
+    #days {
+        font-size: 200px;
+        color: #db4844;
+    }
+    
+    #hours {
+        font-size: 150px;
+        color: #96531f;
+    }
+    
+    #minutes {
+        font-size: 100px;
+        color: #f6da74;
+    }
+    
+    #seconds {
+        font-size: 50px;
+        color: #abcd58;
+    }
+    
+    div {
+        display: inline-block;
+        line-height: 1;
+        padding: 20px;
+        font-size: 40px;
+    }
+    
+    span {
+        display: block;
+        font-size: 20px;
+        color: white;
+    }
+    
+    body {
+        text-align: center;
+        font-family: 'Covered By Your Grace', cursive;
+        color: white;
+        background: #fe8069;
+    }
+    
+    .invitation {
+        display: block;
+        color: #131212;
+        font-size: 24px;
+    }
+</style>
+
+<body>
+    <img class="marriage" src="images/marriage.gif" alt="">
+    <div id="timer">
+        <div id="days"></div>
+        <div id="hours"></div>
+        <div id="minutes"></div>
+        <div id="seconds"></div>
+    </div>
+    <div class="invitation">
+        invitations will be out soon.
+    </div>
+</body>
+<script>
+    function makeTimer() {
+
+        var endTime = new Date("August 19, 2017 16:00:00 PDT");
+        var endTime = (Date.parse(endTime)) / 1000;
+
+        var now = new Date();
+        var now = (Date.parse(now) / 1000);
+
+        var timeLeft = endTime - now;
+
+        var days = Math.floor(timeLeft / 86400);
+        var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
+        var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600)) / 60);
+        var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
+
+        if (hours < "10") {
+            hours = "0" + hours;
+        }
+        if (minutes < "10") {
+            minutes = "0" + minutes;
+        }
+        if (seconds < "10") {
+            seconds = "0" + seconds;
+        }
+
+        $("#days").html(days + "<span>Days</span>");
+        $("#hours").html(hours + "<span>Hours</span>");
+        $("#minutes").html(minutes + "<span>Minutes</span>");
+        $("#seconds").html(seconds + "<span>Seconds</span>");
+
+    }
+
+    setInterval(function() {
+        makeTimer();
+    }, 1000);
+</script>
+
+</html>
