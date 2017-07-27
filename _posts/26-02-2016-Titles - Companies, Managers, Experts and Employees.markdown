@@ -3,6 +3,7 @@ layout: post
 title:  "Titles - Companies, Managers, Experts and Employees."
 date:   2016-02-26 10:00:00
 categories: Workplace
+permalink: blog/titles
 ---
 
 > Your company is not your family, your manager is not your friend. Be professional.
