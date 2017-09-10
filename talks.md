@@ -6,6 +6,23 @@ permalink: /talks/
 
 <div class="talks">
 <div class="timed">31 July, 2017</div><coming>Coming Up</coming>
+<h6>Hotel Ossa Congress &amp; Spa
+Rawa Mazowiecka, Poland</h6>
+<h4><b>phpce</b></h4>
+<h4>Usablity principles for MVP</h4>
+<a href="https://2017.phpce.eu/">Agenda</a>
+</div>
+
+<div class="talks">
+<div class="timed">24 Sept, 2017</div><coming>Cancelled due to non-availibility</coming>
+<h6>Messe Wien Exhibition &amp; Congress Centre - Vienna Austria</h6>
+<h4><b>DrupalCon</b></h4>
+<h4>Reducing Visual Noise for a Better User Experience</h4>
+<a href="https://events.drupal.org/vienna2017/sessions/reducing-visual-noise-better-user-experience">Agenda</a>
+</div>
+
+<div class="talks">
+<div class="timed">31 July, 2017</div>
 <h6>National Institutes of Health Campus Natcher Conference Center • Bethesda, MD - United States</h6>
 <h4><b>GovCon</b></h4>
 <h4>Around usability - Lightening talk</h4>
