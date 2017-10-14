@@ -1,8 +1,15 @@
 /*
  FONT FAMILY
  */
-$primary: 'open sans', Helvetica, Arial, sans-serif;
-$writing: 'Droid Serif', serif;
+
+$primary: 'open sans',
+Helvetica,
+Arial,
+sans-serif;
+$writing: 'Droid Serif',
+serif;
+$new-branding: 'Bitter',
+serif;
 
 /*
  FONT COLORS
@@ -10,38 +17,39 @@ $writing: 'Droid Serif', serif;
 
 $white: #ffffff;
 $branding: #08827e;
+
 /*
  FONT SIZES
  */
+
 $base-font-size: 16;
 $base-line-height: 24;
 $base-spacing-unit: $base-line-height;
 $half-base-spacing-unit: $base-line-height/2;
-
 .f-10 {
-	@include font-size(10);
+    @include font-size(10);
 }
 
 .f-12 {
-  @include font-size(12);
+    @include font-size(12);
 }
 
 .f-14 {
-  @include font-size(14);
+    @include font-size(14);
 }
 
 .f-16 {
-  @include font-size(16);
+    @include font-size(16);
 }
 
 .f-18 {
-  @include font-size(18);
+    @include font-size(18);
 }
 
 .f-20 {
-  @include font-size(20);
+    @include font-size(20);
 }
 
 .f-24 {
-  @include font-size(24);
+    @include font-size(24);
 }
