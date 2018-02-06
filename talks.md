@@ -5,7 +5,7 @@ permalink: /talks/
 ---
 
 <div class="talks">
-<div class="timed">3 Nov, 2017</div><coming>Coming Up</coming>
+<div class="timed">3 Nov, 2017</div>
 <h6>Hotel Ossa Congress &amp; Spa
 Rawa Mazowiecka, Poland</h6>
 <h4><b>phpce</b></h4>
