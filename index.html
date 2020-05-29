@@ -1,25 +1,63 @@
----
-layout: layout
----
-
-<div class="home">
-    <div id="background">
-        <a href="/"><img class="junaid-background" src="junaid.png" alt="junaidmasoodi" /></a>
-        <h2 class="teaser">
-            <p>
-                Front-End Developer, Dribbbler, Philanthropist, Technology Evangelist, Forced Blogger, UI Baker, International Speaker, Starbucks Addict and hell yeah Foodie. Currently Working <a href="http://www.acquia.com">@Acquia</a>
-            </p>
-        </h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Junaid Masoodi - Front-End Engineer, Accessibility & UX Advocate.</title>
+  <meta name="description" content="User Experience, Front-End, Accessibility and More">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" media="screen, projection" type="text/css" href="assets/home.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</head>
+<body class="container">
+  <header>
+    <img class="logo" src="assets/junaidmasoodi.svg" alt="">
+    <nav>
+    <li> <a href="http://junaidmasoodi.com/blog/">BLOG</a></li>
+    <li><a href="http://junaidmasoodi.com/talks/">TALKS</a></li>
+    <li><a href="http://junaidmasoodi.com/contact/">CONNECT</a></li>
+  </nav>
+  </header>
+  <div class="main" role="main">
+    <div class="left">
+        <h1>Hello, I'm <span>Junaid Masoodi</span></h1>
+        <p>Front End Engineer &bull; a11y Advocate &bull; User Experience Enthusiast &bull; Speaker<br/>
+        </p>
+        <p class="bio">Born and raised in mountains, a software engineer and a speaker by profession. Having an extensive expertise in accessibility, content strategy and a user experience advocate by heart. I have organised many state level technical events and have been an active community member. I am currently heading <a href="http://www.c-sharpcorner.com/">C-Sharp Corner</a> for the <a href="http://www.c-sharpcorner.com/Chapters/18/kashmir-chapter.aspx">Kashmir chapter</a></p>
+        <ul class="social" role="presentation">
+          <li> <a class="icon email" target="_blank" href="mailto:iam@junaidmasoodi.com" arial-label="Mail at iam@junaidmasoodi.com"></a> </li>
+          <li> <a class="icon github" target="_blank" href="https://github.com/junaidmasoodi" arial-label="Check Junaid's profile on GitHub"></a> </li>
+          <li> <a class="icon linkedin" target="_blank" href="https://www.linkedin.com/in/junaidmasoodi/" arial-label="Check Junaid's profile on linkedin"></a> </li>
+          <li> <a class="icon twitter" target="_blank" href="https://twitter.com/junaidmasudi" arial-label="Check Junaid's profile on twitter"></a> </li>
+          <li> <a class="icon instagram" target="_blank" href="https://instagram.com/junaidmasoodi/" arial-label="Check Junaid's profile on instagram"></a> </li>
+          <li> <a class="icon facebook" target="_blank" href="https://facebook.com/junaidmasoodi" arial-label="Check Junaid's profile on facebook"></a> </li>
+          <li> <a class="icon dribbble" target="_blank" href="https://dribbble.com/junaidmasoodi" arial-label="Check Junaid's profile on dribbble"></a> </li>
+        </ul>
     </div>
+    <div class="right">
+      <img src="assets/junaid.svg" class="junaid" alt="Junaid Masoodi potrait, smiling, New York in background.">
+      <img src="assets/ring.svg" class="ring" role="presentation" alt="">
+    </div>
+  </div>
 
-    <ul class="posts">
-        {% for post in site.posts %}
-        <li>
-            <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> {{ post.excerpt }}
-        </li>
-        {% endfor %}
-    </ul>
+  <footer>
 
-    <p class="rss-subscribe"><a href="{{ " /feed.xml " | prepend: site.baseurl }}"><i class="fa fa-rss"></i></a></p>
-</div>
+    <div>
+      <span>&copy; 2011</span>
+      <span>- Made with love in Kashmir</span>
+    </div>
+  </footer>
+
+  <h2></h2>
+</body>
+<script type="text/javascript">
+  var viewport_height = window.innerHeight;
+  $(function() {
+    $('.main').css('padding-top', viewport_height/3);
+  });
+</script>
+</html>
