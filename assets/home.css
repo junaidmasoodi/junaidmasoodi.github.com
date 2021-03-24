@@ -93,7 +93,8 @@ h1 span {
 .logo {
 	float: left;
 	margin-top: 1.5rem;
-	width: 160px;
+	width: 50px;
+	height: auto;
 }
 /**
 	NAVIGATION
